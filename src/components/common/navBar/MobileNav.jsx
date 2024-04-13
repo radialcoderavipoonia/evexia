@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { NavLinks } from "../common/Helper";
-import { DropDwonArrow } from "../common/Icons";
+import { navLinks } from "../Helper";
+import CommonBtn from "../CommonBtn";
 
 // Define MobileNav component
 const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
@@ -51,46 +51,22 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
         }`}
       >
         <div className=" flex justify-center">
-          <div className="flex flex-col text-white gap-9 xl:gap-5 justify-center items-start w-full">
-            {NavLinks.map((value, index) => {
+          <div className="flex flex-col text-white gap-9 xl:gap-5 justify-center items-center w-full">
+            {navLinks.map((value, index) => {
               return (
                 <div key={index} className="relative">
                   <Link
-                    href="#About"
-                    className="font-Poppins group opacity-80 hover:opacity-100 transition-all ease-in-out duration-200 font-normal text-base text-white"
+                    href={value.path}
+                    className="font-OpenSans hover:text-green transition-all ease-in-out duration-200 font-normal text-base text-black"
                   >
-                    <span className="flex justify-center items-center gap-1">
-                      {value.title}
-                      {/* Check if the current link is not "Home", "Results", or "Contact" */}
-                      {value.title !== "Home" &&
-                        value.title !== "Results" &&
-                        value.title !== "Contact" && (
-                          <span className="block">
-                            <DropDwonArrow />
-                          </span>
-                        )}
-                    </span>
+                    {value.title}
                   </Link>
-                  {/* 
-                  {value.title !== "Home" &&
-                    value.title !== "Results" &&
-                    value.title !== "Contact" && (
-                      <span>
-                        {value.option.map((subValue, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className="group-hover:flex hidden transition-all ease-in-out duration-200  flex-col !bg-black top-8 py-2 px-2 rounded-md"
-                            >
-                              <Link href="#">{subValue.links}</Link>
-                            </span>
-                          );
-                        })}
-                      </span>
-                    )} */}
                 </div>
               );
             })}
+          </div>
+          <div className="">
+            <CommonBtn title="Download Now" />
           </div>
         </div>
       </div>
