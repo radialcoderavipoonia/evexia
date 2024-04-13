@@ -6,6 +6,7 @@ export const Dna = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[48px] sm:h-[48px] w-[30px] h-[30px]"
     >
       <rect
         x="0.48"
@@ -50,6 +51,7 @@ export const Precision = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[48px] sm:h-[48px] w-[30px] h-[30px]"
     >
       <rect width="48" height="48" rx="3.84" fill="#004A6D" />
       <path
@@ -69,6 +71,7 @@ export const Wellness = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[48px] sm:h-[48px] w-[30px] h-[30px]"
     >
       <rect width="48" height="48" rx="3.84" fill="#004A6D" />
       <path
@@ -96,6 +99,7 @@ export const Evolving = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[48px] sm:h-[48px] w-[30px] h-[30px]"
     >
       <rect width="48" height="48" rx="3.84" fill="#004A6D" />
       <path
@@ -137,6 +141,7 @@ export const RealChange = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[48px] sm:h-[48px] w-[30px] h-[30px]"
     >
       <rect width="48" height="48" rx="4.64" fill="#004A6D" />
       <path
@@ -198,6 +203,42 @@ export const HeaderCross = () => {
         strokeWidth="3.30769"
         strokeMiterlimit="10"
         strokeLinecap="round"
+      />
+    </svg>
+  );
+};
+export const GreenCircle = () => {
+  return (
+    <svg
+      width="28"
+      height="28"
+      viewBox="0 0 28 28"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="13.6405"
+        cy="13.6405"
+        r="12.2047"
+        stroke="#AEDBAC"
+        stroke-width="2.87169"
+      />
+    </svg>
+  );
+};
+export const Polygon = () => {
+  return (
+    <svg
+      width="30"
+      height="29"
+      viewBox="0 0 30 29"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16.6514 3.00024C19.6168 0.631648 24.0369 2.27892 24.729 6.01056L27.5353 21.1438C28.2474 24.9838 24.4988 28.133 20.8392 26.7691L6.00687 21.2415C2.34723 19.8776 1.5739 15.0432 4.62548 12.6058L16.6514 3.00024Z"
+        stroke="#DFDAFF"
+        stroke-width="3.58961"
       />
     </svg>
   );
