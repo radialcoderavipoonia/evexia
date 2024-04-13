@@ -18,6 +18,10 @@ module.exports = {
         OpenSans: ["Open Sans", "sans-serif"],
         NotoSans: ["Noto Sans", "sans-serif"],
       },
+      colors: {
+        green: "#27AA7E",
+        blue: "#004A6D",
+      },
     },
   },
   plugins: [],
