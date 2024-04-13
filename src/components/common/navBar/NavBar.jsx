@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { DropDwonArrow, HeaderCross, MainLogo, OpenNav } from "../common/Icons";
 import MobileNav from "./MobileNav";
-import { NavLinks } from "../common/Helper";
+import { navLinks } from "../Helper";
 
 // Define NavBar component
 const NavBar = () => {
@@ -39,49 +39,24 @@ const NavBar = () => {
             {/* Logo */}
             <div className="mt-0">
               <Link href="#" className="w-full max-w-[150px] md:max-w-[210px]">
-                <MainLogo />
+                <Image
+                  width={185}
+                  height={20}
+                  src="/assets/images/"
+                  alt="logo"
+                />
               </Link>
             </div>
             {/* Navigation links */}
 
             <div className="hidden lg:flex gap-6">
-              {NavLinks.map((value, index) => {
+              {navLinks.map((value, index) => {
                 return (
                   <div key={index} className="relative">
                     <Link
                       href="#About"
                       className="font-Poppins group hover:stroke-inherit  transition-all ease-in-out duration-200 font-normal text-base text-white"
-                    >
-                      <span className="flex justify-center items-center gap-1">
-                        {value.title}
-                        {/* Check if the current link is not "Home", "Results", or "Contact" */}
-                        {value.title !== "Home" &&
-                          value.title !== "Results" &&
-                          value.title !== "Contact" && (
-                            <span className="block">
-                              <DropDwonArrow />
-                            </span>
-                          )}
-                      </span>
-                    </Link>
-                    {value.title !== "Home" &&
-                      value.title !== "Results" &&
-                      value.title !== "Contact" && (
-                        <span>
-                          {value.option.map((subValue, i) => {
-                            return (
-                              <span
-                                key={i}
-                                className="group-hover:opacity-100 absolute opacity-0 transition-all ease-in-out duration-200 flex flex-col bg-black top-8 py-2 px-2 rounded-md"
-                              >
-                                <Link href="#">{subValue.links}</Link>
-                                <Link href="#">{subValue.links}</Link>
-                                <Link href="#">{subValue.links}</Link>
-                              </span>
-                            );
-                          })}
-                        </span>
-                      )}
+                    ></Link>
                   </div>
                 );
               })}
