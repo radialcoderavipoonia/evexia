@@ -34,11 +34,11 @@ const NavBar = () => {
       />
 
       {/* Navigation bar */}
-      <nav className="shadow-[0px_2px_28.8px_0px_#00000014] py-2">
+      <nav className="shadow-[0px_2px_28.8px_0px_#00000014] py-2 ">
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <div className="flex justify-between items-center">
             {/* Logo */}
-            <div className="mt-0">
+            <div className="mt-0 relative z-[500]">
               <Link href="#" className="w-full max-w-[150px] md:max-w-[210px]">
                 <Image
                   width={79}
@@ -70,7 +70,7 @@ const NavBar = () => {
               <CommonBtn title="Download Now" />
             </div>
             {/* Toggle button for mobile */}
-            <div className="flex items-center lg:hidden relative z-[200] sm:me-0 ">
+            <div className="flex items-center lg:hidden relative z-[700]  sm:me-0 ">
               <div className="border_gradient h-[27px] mx-6 lg:mx-3"></div>
               <button
                 onClick={() => setActiveNavOverlay(!activeNavOverlay)}
