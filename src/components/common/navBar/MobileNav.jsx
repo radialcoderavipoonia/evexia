@@ -50,7 +50,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
           activeNavOverlay ? "left-0" : "-left-full"
         }`}
       >
-        <div className=" flex justify-center">
+        <div className=" flex flex-col justify-center">
           <div className="flex flex-col text-white gap-9 xl:gap-5 justify-center items-center w-full">
             {navLinks.map((value, index) => {
               return (
@@ -64,9 +64,9 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
                 </div>
               );
             })}
-          </div>
-          <div className="">
-            <CommonBtn title="Download Now" />
+            <div className="">
+              <CommonBtn title="Download Now" />
+            </div>
           </div>
         </div>
       </div>
