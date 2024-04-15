@@ -5,6 +5,8 @@ import Image from "next/image";
 import NavBar from "@/components/common/navBar/NavBar";
 import React from "react";
 import RevealYourUltimate from "@/components/RevealYourUltimate";
+import WhoWeAre from "@/components/WhoWeAre";
+import Faq from "@/components/Faq";
 
 const page = () => {
   return (
@@ -13,6 +15,8 @@ const page = () => {
       <RevealYourUltimate />
       <HowItWorks />
       <OurBenefits />
+      <WhoWeAre />
+      <Faq />
     </>
   );
 };

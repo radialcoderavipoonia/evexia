@@ -260,3 +260,413 @@ export const LeftArrow = () => {
     </svg>
   );
 };
+export const TheGenesis = () => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_22_8423)">
+        <rect
+          x="20"
+          y="20"
+          width="44"
+          height="44"
+          rx="22"
+          fill="white"
+          fill-opacity="0.06"
+          shape-rendering="crispEdges"
+        />
+        <rect
+          x="20.25"
+          y="20.25"
+          width="43.5"
+          height="43.5"
+          rx="21.75"
+          stroke="white"
+          stroke-opacity="0.12"
+          stroke-width="0.5"
+          shape-rendering="crispEdges"
+        />
+        <path
+          d="M42.5235 42.5C39.0766 42.5 36.2735 39.6969 36.2735 36.25C36.2735 32.8031 39.0777 30 42.5235 30C45.9693 30 48.7735 32.8031 48.7735 36.25C48.7735 39.6969 45.9704 42.5 42.5235 42.5ZM44.585 48.9417V44.5833H39.3548V49.0385C39.9745 49.399 40.3964 50.0635 40.3964 50.8333C40.3964 51.9844 39.4641 52.9167 38.3131 52.9167C37.162 52.9167 36.2298 51.9844 36.2298 50.8333C36.2298 50.0646 36.6516 49.4 37.2714 49.0385V44.5854C34.41 44.5979 32.085 46.9271 32.085 49.7917V55H42.5016V51.875C42.5016 50.5187 43.3756 49.3729 44.585 48.9417ZM47.71 44.5833H46.6683V48.9417C47.8777 49.3729 48.7516 50.5187 48.7516 51.875V55H52.9183V49.7917C52.9183 46.9198 50.5818 44.5833 47.71 44.5833ZM45.6266 50.8333C45.0516 50.8333 44.585 51.3 44.585 51.875V55H46.6683V51.875C46.6683 51.3 46.2016 50.8333 45.6266 50.8333Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_22_8423"
+          x="0"
+          y="0"
+          width="84"
+          height="84"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="10" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_22_8423"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_22_8423"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
+export const TheMission = () => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_20_3579)">
+        <rect
+          x="20"
+          y="20"
+          width="44"
+          height="44"
+          rx="22"
+          fill="white"
+          fill-opacity="0.06"
+          shape-rendering="crispEdges"
+        />
+        <rect
+          x="20.25"
+          y="20.25"
+          width="43.5"
+          height="43.5"
+          rx="21.75"
+          stroke="white"
+          stroke-opacity="0.12"
+          stroke-width="0.5"
+          shape-rendering="crispEdges"
+        />
+        <g clip-path="url(#clip0_20_3579)">
+          <path
+            d="M31.9583 54C31.7042 54 31.4604 53.899 31.2807 53.7193C31.101 53.5396 31 53.2958 31 53.0417V34.8333C31 33.8167 31.4039 32.8416 32.1228 32.1228C32.8416 31.4039 33.8167 31 34.8333 31H41.5417C42.5583 31 43.5334 31.4039 44.2522 32.1228C44.9711 32.8416 45.375 33.8167 45.375 34.8333V39.625C45.375 40.6417 44.9711 41.6167 44.2522 42.3356C43.5334 43.0545 42.5583 43.4583 41.5417 43.4583H32.9167V53.0417C32.9167 53.2958 32.8157 53.5396 32.636 53.7193C32.4563 53.899 32.2125 54 31.9583 54ZM50.1667 34.8333H47.2917V39.625C47.2901 41.1495 46.6839 42.6112 45.6058 43.6892C44.5278 44.7672 43.0662 45.3735 41.5417 45.375H41.1162C41.45 45.9558 41.9307 46.4386 42.51 46.775C43.0892 47.1114 43.7468 47.2895 44.4167 47.2917H50.1667C51.1833 47.2917 52.1584 46.8878 52.8772 46.1689C53.5961 45.45 54 44.475 54 43.4583V38.6667C54 37.65 53.5961 36.675 52.8772 35.9561C52.1584 35.2372 51.1833 34.8333 50.1667 34.8333Z"
+            fill="white"
+          />
+        </g>
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_20_3579"
+          x="0"
+          y="0"
+          width="84"
+          height="84"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="10" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_20_3579"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_20_3579"
+            result="shape"
+          />
+        </filter>
+        <clipPath id="clip0_20_3579">
+          <rect
+            width="23"
+            height="23"
+            fill="white"
+            transform="translate(31 31)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export const TheJourney = () => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_20_3596)">
+        <rect
+          x="20"
+          y="20"
+          width="44"
+          height="44"
+          rx="22"
+          fill="white"
+          fill-opacity="0.06"
+          shape-rendering="crispEdges"
+        />
+        <rect
+          x="20.25"
+          y="20.25"
+          width="43.5"
+          height="43.5"
+          rx="21.75"
+          stroke="white"
+          stroke-opacity="0.12"
+          stroke-width="0.5"
+          shape-rendering="crispEdges"
+        />
+        <path
+          d="M32 32.5C32 31.119 33.119 30 34.5 30C35.881 30 37 31.119 37 32.5C37 33.881 35.881 35 34.5 35C33.119 35 32 33.881 32 32.5ZM45 45C43.346 45 42 46.346 42 48V53C42 53.553 42.447 54 43 54C43.553 54 44 53.553 44 53V52H46V53C46 53.553 46.447 54 47 54C47.553 54 48 53.553 48 53V48C48 46.346 46.654 45 45 45ZM51 40C52.381 40 53.5 38.881 53.5 37.5C53.5 36.119 52.381 35 51 35C49.619 35 48.5 36.119 48.5 37.5C48.5 38.881 49.619 40 51 40ZM51 41C50.448 41 49.937 41.16 49.492 41.422C49.492 42.731 49.087 43.597 48.429 44.38C49.391 45.292 50 46.573 50 48H52V49C52 49.553 52.447 50 53 50C53.553 50 54 49.553 54 49V44C54 42.346 52.654 41 51 41ZM45 44C46.381 44 47.5 42.881 47.5 41.5C47.5 40.119 46.381 39 45 39C43.619 39 42.5 40.119 42.5 41.5C42.5 42.881 43.619 44 45 44ZM44.751 30.377C44.195 30.128 43.6 30 43 30C42.447 30 42 30.447 42 31V36H34C31.794 36 30 37.794 30 40V44C30 45.474 30.81 46.75 32 47.444V53C32 53.553 32.447 54 33 54C33.553 54 34 53.553 34 53V48H36V53C36 53.553 36.447 54 37 54C37.553 54 38 53.553 38 53V38H43C43.553 38 44 37.553 44 37V35.25L47.565 33.365C48.146 32.966 48.146 32.036 47.565 31.636L44.751 30.377Z"
+          fill="white"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_20_3596"
+          x="0"
+          y="0"
+          width="84"
+          height="84"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="10" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_20_3596"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_20_3596"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+};
+export const TheTeam = () => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_20_3613)">
+        <rect
+          x="20"
+          y="20"
+          width="44"
+          height="44"
+          rx="22"
+          fill="white"
+          fill-opacity="0.06"
+          shape-rendering="crispEdges"
+        />
+        <rect
+          x="20.25"
+          y="20.25"
+          width="43.5"
+          height="43.5"
+          rx="21.75"
+          stroke="white"
+          stroke-opacity="0.12"
+          stroke-width="0.5"
+          shape-rendering="crispEdges"
+        />
+        <g clip-path="url(#clip0_20_3613)">
+          <path
+            d="M47.9589 37.6667C50.352 37.6667 52.2922 39.6069 52.2922 42C52.2922 44.3931 50.352 46.3333 47.9589 46.3333C45.5658 46.3333 43.6256 44.3931 43.6256 42C43.6256 39.6069 45.5658 37.6667 47.9589 37.6667ZM42.0006 37.6667C44.3936 37.6667 46.3339 35.7264 46.3339 33.3333C46.3339 30.9402 44.3936 29 42.0006 29C39.6075 29 37.6672 30.9402 37.6672 33.3333C37.6672 35.7264 39.6075 37.6667 42.0006 37.6667ZM36.0422 46.3333C38.4353 46.3333 40.3756 44.3931 40.3756 42C40.3756 39.6069 38.4353 37.6667 36.0422 37.6667C33.6491 37.6667 31.7089 39.6069 31.7089 42C31.7089 44.3931 33.6491 46.3333 36.0422 46.3333ZM54.9507 52.9753C54.1209 49.7025 51.1352 47.4167 47.6881 47.4167C45.4326 47.4167 43.3872 48.4079 42.0006 50.0037C40.615 48.409 38.5696 47.4167 36.3131 47.4167C32.867 47.4167 29.8802 49.7025 29.0504 52.9753C28.8294 53.8452 29.3559 54.7292 30.2258 54.9502C31.0968 55.1723 31.9808 54.6447 32.2007 53.7747C32.4423 52.8214 33.0219 52.0241 33.7932 51.4738L35.3272 53.4389C35.8375 54.077 36.8081 54.077 37.3195 53.4389L38.8665 51.4954C39.6216 52.0457 40.1871 52.8355 40.4254 53.7758C40.4286 53.7899 40.7211 55.0022 42.0016 55.0022C43.2821 55.0022 43.5725 53.791 43.5757 53.7758C43.8173 52.8225 44.3969 52.0263 45.1682 51.4748L46.7022 53.44C47.2125 54.0781 48.1831 54.0781 48.6945 53.44L50.2415 51.4965C50.9976 52.0468 51.5621 52.8366 51.8004 53.7769C52.0203 54.6468 52.9097 55.1733 53.7742 54.9523C54.6452 54.7313 55.1706 53.8473 54.9507 52.9774V52.9753Z"
+            fill="white"
+          />
+        </g>
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_20_3613"
+          x="0"
+          y="0"
+          width="84"
+          height="84"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="10" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_20_3613"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_20_3613"
+            result="shape"
+          />
+        </filter>
+        <clipPath id="clip0_20_3613">
+          <rect
+            width="26"
+            height="26"
+            fill="white"
+            transform="translate(29 29)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};
+export const WhyEvexia = () => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g filter="url(#filter0_d_20_3630)">
+        <rect
+          x="20"
+          y="20"
+          width="44"
+          height="44"
+          rx="22"
+          fill="white"
+          fill-opacity="0.06"
+          shape-rendering="crispEdges"
+        />
+        <rect
+          x="20.25"
+          y="20.25"
+          width="43.5"
+          height="43.5"
+          rx="21.75"
+          stroke="white"
+          stroke-opacity="0.12"
+          stroke-width="0.5"
+          shape-rendering="crispEdges"
+        />
+        <g clip-path="url(#clip0_20_3630)">
+          <path
+            d="M40.3507 50.5108L35.5791 55.3175C34.6679 56.2287 33.1909 56.2287 32.2797 55.3175L30.9941 54.0318C30.0806 53.1183 30.0829 51.6367 30.9999 50.7267L35.7786 45.9387L40.3507 50.5108ZM40.3962 38.3308L40.4056 38.3227C39.6157 37.667 38.6299 36.5762 37.5531 35.4982C36.7796 34.7247 36.6116 33.0832 37.3571 32.2175C38.7466 30.8327 40.1337 30.3333 42.0016 30.3333C43.8694 30.3333 45.3872 30.835 46.7779 32.2187C47.5234 33.0843 47.2294 34.7527 46.6251 35.3652C45.4362 36.5668 44.5017 37.681 43.7119 38.3355L48.1347 42.7303L48.9386 41.9265C50.5404 40.3247 51.3092 38.2247 51.3361 36.1667C51.3617 34.1332 50.5007 32.1545 48.8511 30.6402C47.8781 29.7488 45.6801 28 42.0004 28C38.3371 28.0093 36.0761 29.7523 35.1077 30.6402C33.4581 32.1545 32.5971 34.132 32.6227 36.1667C32.6484 38.2247 33.4172 40.3235 35.0202 41.9265L35.8241 42.7303L48.4754 55.3198C49.3772 56.2193 50.8344 56.2287 51.7491 55.3408L52.9694 54.1555C53.9051 53.2467 53.9132 51.7463 52.9881 50.827L40.3974 38.332L40.3962 38.3308Z"
+            fill="white"
+          />
+        </g>
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_20_3630"
+          x="0"
+          y="0"
+          width="84"
+          height="84"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset />
+          <feGaussianBlur stdDeviation="10" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_20_3630"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_20_3630"
+            result="shape"
+          />
+        </filter>
+        <clipPath id="clip0_20_3630">
+          <rect
+            width="28"
+            height="28"
+            fill="white"
+            transform="translate(28 28)"
+          />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+};

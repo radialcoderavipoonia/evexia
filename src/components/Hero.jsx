@@ -38,7 +38,7 @@ const Hero = () => {
                 sizes="100vw"
                 width={587}
                 height={628}
-                src="/assets/images/home-page/hero/unlock-your.webp"
+                src="/assets/images/home-page/hero/unlock_your.webp"
                 alt="unlock-your"
               />
             </div>

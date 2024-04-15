@@ -8,10 +8,15 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/home-page/hero/hero-section.webp')",
+        hero: "url('/assets/images/home-page/hero/hero_section.webp')",
         commonSection: "url('/assets/common/reveal-common.webp')",
         "benefits-tabs":
           " linear-gradient(180deg, rgba(39, 170, 126, 0.22) 19.21%, rgba(0, 74, 109, 0.22) 100%),linear-gradient(89.78deg, #27AA7E 2.16%, #004A6D 99.81%)",
+
+        "about-us":
+          " linear-gradient(180deg, rgba(39, 170, 126, 0.22) 19.21%, rgba(0, 74, 109, 0.22) 100%)",
+        "card-border":
+          "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(252, 252, 252, 0.12) 3.18%, rgba(229, 229, 229, 0.12) 25.9%, rgba(176, 176, 176, 0.12) 77.42%, rgba(153, 153, 153, 0) 100%),linear-gradient(90deg, rgba(156, 156, 156, 0) 0%, rgba(0, 0, 0, 0.12) 64.52%)",
       },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],
@@ -21,6 +26,10 @@ module.exports = {
       colors: {
         green: "#27AA7E",
         blue: "#004A6D",
+        mintcream: "#E5F4EF",
+        cornflowerblue: "#3D9DF21A",
+        lightWhite: "#FFFFFF3D",
+        lightBlack: "#00000014",
       },
     },
   },
