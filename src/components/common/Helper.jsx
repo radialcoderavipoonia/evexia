@@ -138,3 +138,61 @@ export const faqList = [
       "Yes, we offer a free trial and live demos of our services to help you experience their value firsthand",
   },
 ];
+export const footerCompanyList = [
+  {
+    title: "About us",
+    link: "#aboutus",
+  },
+  {
+    title: "Career",
+    link: "#career",
+  },
+  {
+    title: "Blog",
+    link: "#blog",
+  },
+  {
+    title: "Videos",
+    link: "#videos",
+  },
+  {
+    title: "Return and Refund Policy",
+    link: "#policy",
+  },
+];
+export const footerSolutionList = [
+  {
+    title: "Roles",
+    link: "/",
+  },
+  {
+    title: "Industries",
+    link: "/",
+  },
+  {
+    title: "Use Cases",
+    link: "/",
+  },
+];
+export const socialIconList = [
+  {
+    socialmedia: "Facebook",
+    // icon: <Facebook />,
+    link: "https://facebook.com",
+  },
+  {
+    socialmedia: "Twitter",
+    // icon: <Twitter />,
+    link: "https://twitter.com/",
+  },
+  {
+    socialmedia: "Linkedin",
+    // icon: <Linkedin />,
+    link: "https://www.linkedin.com/",
+  },
+  {
+    socialmedia: "Instagram",
+    // icon: <Instagram />,
+    link: "https://www.instagram.com/",
+  },
+];
