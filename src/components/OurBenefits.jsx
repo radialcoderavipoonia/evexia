@@ -59,7 +59,7 @@ const OurBenefits = () => {
                 className=""
                 width={510}
                 height={275}
-                src={`/assets/images/our-benefits/${tab.imageName}.png`}
+                src={`/assets/images/home-page/our-benefits/${tab.imageName}.png`}
                 alt={`${tab.title} image`}
               />
               <div className="pt-5">

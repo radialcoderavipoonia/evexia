@@ -22,7 +22,7 @@ const HowItWorks = () => {
                 className="h-[3100px]"
                 width={100}
                 height={1700}
-                src="/assets/images/how-it-works/roadmap_dots.png"
+                src="/assets/images/home-page/how-it-works/roadmap_dots.png"
                 alt="witness image"
               />
             </div>
@@ -77,7 +77,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
                     width={498}
                     height={289}
-                    src="/assets/images/how-it-works/personalized_plan.png"
+                    src="/assets/images/home-page/how-it-works/personalized_plan.png"
                     alt="personalized plan image"
                   />
                 </div>
@@ -163,7 +163,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
                     width={498}
                     height={289}
-                    src="/assets/images/how-it-works/find_your_tribe.png"
+                    src="/assets/images/home-page/how-it-works/find_your_tribe.png"
                     alt="find your tribe image"
                   />
                 </div>
@@ -239,7 +239,7 @@ const HowItWorks = () => {
               className="h-[1700px]"
               width={72}
               height={1700}
-              src="/assets/images/how-it-works/roadmap_dots.png"
+              src="/assets/images/home-page/how-it-works/roadmap_dots.png"
               alt="witness image"
             />
           </div>
@@ -249,7 +249,7 @@ const HowItWorks = () => {
         className="absolute left-[10%] top-[600px] lg:block hidden"
         width={86}
         height={255}
-        src="/assets/images/how-it-works/left_side_lines.png"
+        src="/assets/images/home-page/how-it-works/left_side_lines.png"
         alt="left side lines image"
       />
       <span className="absolute left-[7%] top-[650px] lg:block hidden">

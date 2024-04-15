@@ -108,7 +108,7 @@ const OurFeature = () => {
                 className="sm:ps-[69px] pt-2 md:w-[307px] xl:w-[376px] sm:w-[280px] w-[240px] lg:h-[498px] xl:h-[628px] h-[450px]"
                 width={307}
                 height={628}
-                src="/assets/images/our-features/iphone.png"
+                src="/assets/images/home-page/our-features/iphone.png"
                 alt="iphone image"
               />
             </div>
@@ -118,7 +118,7 @@ const OurFeature = () => {
           className="absolute lg:bottom-[114px] bottom-[27px] right-0 xl:w-[660px] sm:w-[550px] w-[400px] sm:h-[600px] h-[500px] xl:h-[618px]"
           width={660}
           height={618}
-          src="/assets/images/our-features/iphone_bg.png"
+          src="/assets/images/home-page/our-features/iphone_bg.png"
           alt="iphone bg image"
         />
       </div>
