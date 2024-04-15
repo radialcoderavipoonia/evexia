@@ -13,10 +13,10 @@ const Footer = () => {
     <>
       <div className=" bg-black">
         <div className="xl:max-w-[1140px] container px-3 xl:px-0 mx-auto pt-10 pb-[50px]">
-          <div className="flex flex-col md:flex-row md:gap-6 lg:justify-between justify-center ">
-            <div className="md:w-4/12 lg:w-5/12">
+          <div className="flex flex-col lg:flex-row lg:gap-6 lg:justify-between justify-center ">
+            <div className="lg:w-4/12 xl:w-5/12">
               <Image
-                className="lg:w-[290px] w-[135px] mx-auto"
+                className="lg:w-[290px] w-[135px] mx-auto lg:mx-0"
                 width={185}
                 height={20}
                 src="/assets/common/footer-logo.svg"
@@ -51,7 +51,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-8/12 lg:w-6/12 pt-6 sm:pt-10 md:pt-0">
+            <div className="lg:w-8/12 xl:w-6/12 pt-6 sm:pt-10 lg:pt-0">
               <div className="grid sm:grid-cols-3 gap-6 sm:gap-3 xl:gap-6">
                 <div>
                   <p className="font-OpenSans font-semibold text-xl text-white ">
