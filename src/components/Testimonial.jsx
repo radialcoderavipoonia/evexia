@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <div className="bg-[url('/assets/images/testimonial/background.png')] bg-no-repeat bg-cover lg:mt-[120px] sm:mt-24 mt-20">
+    <div className="bg-[url('/assets/images/home-page/testimonial/background.png')] bg-no-repeat bg-cover lg:mt-[120px] sm:mt-24 mt-20">
       <div className="lg:pt-[130px] md:pt-[100px] pt-20">
         <div className="flex justify-center">
           <span className="text-center bg-[#57BD9B] text-[#FFFFFF] border-[1px] border-[#FFFFFF] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
