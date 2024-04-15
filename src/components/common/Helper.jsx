@@ -47,7 +47,7 @@ export const navLinks = [
   },
   {
     title: "How It Works",
-    path: "/",
+    path: "/pricing-page",
   },
   {
     title: "Benefits",

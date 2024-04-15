@@ -1,5 +1,5 @@
 import React from "react";
-import { GreenRightIcon } from "./common/Icons";
+import { GreenRightIcon } from "../common/Icons";
 import Image from "next/image";
 
 const WhyUs = () => {
@@ -86,14 +86,13 @@ const WhyUs = () => {
                   <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
                     <span className="font-bold">Refer & thrive:</span> We
                     believe in the power of community, and as part of our
-                    pre-launch, we're introducing a referral program that
+                    pre-launch, were introducing a referral program that
                     rewards you for spreading the word. For every friend you
-                    refer who signs up for our pre-launch, you'll receive an
+                    refer who signs up for our pre-launch, youll receive an
                     additional discount on your subscription. The more friends
                     you bring into the Evexia family, the more you save
                   </p>
                 </div>
-               
               </div>
             </div>
           </div>
