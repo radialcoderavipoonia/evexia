@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body, html{
+  overflow-x: hidden !important;
+}
 @layer components {
   /* Styles for mobile navigation links */
   .mobile-nav-li {

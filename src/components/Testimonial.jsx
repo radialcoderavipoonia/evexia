@@ -5,25 +5,25 @@ import Image from "next/image";
 const Testimonial = () => {
   return (
     <div className="bg-[url('/assets/images/testimonial/background.png')] bg-no-repeat bg-cover">
-      <div className="pt-[130px]">
+      <div className="lg:pt-[130px] md:pt-[100px] pt-20">
         <div className="flex justify-center">
           <span className="text-center bg-[#57BD9B] text-[#FFFFFF] border-[1px] border-[#FFFFFF] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             TESTIMONIAL
           </span>
         </div>
-        <p className="pt-2 text-center text-white font-NotoSans font-bold text-[48px] leading-[115%]">
+        <p className="pt-2 text-center text-white font-NotoSans font-bold md:text-[48px] sm:text-[40px] text-[32px] leading-[115%] ssm:px-0 px-2">
           Our Happy Customers
         </p>
-        <div className="relative max-w-[482px] mx-auto">
+        <div className="relative max-w-[482px] mx-auto sm:px-0 px-3">
           <p className="max-w-[482px] mx-auto text-center pt-[18px] text-[#BCE0D7] font-OpenSans font-normal text-base leading-[155%]">
             Eevexia has been a game-changer for me. Understanding my genetic
             makeup and how it affects my health has allowed me to finally break
             through my fitness plateau. Ive never felt better!
           </p>
-          <p className="absolute top-[-10px] left-[-80px]">
+          <p className="absolute top-[-10px] left-[-80px] md:block hidden">
             <DoubleComma />
           </p>
-          <p className="absolute bottom-[-20px] right-[-50px] rotate-180">
+          <p className="absolute bottom-[-20px] right-[-50px] rotate-180 md:block hidden">
             <DoubleComma />
           </p>
         </div>
@@ -33,7 +33,7 @@ const Testimonial = () => {
         <p className="text-center font-OpenSans font-normal text-sm leading-[150%] text-[#B9D5D0]">
           Age - 34
         </p>
-        <div className="xl:mt-[-170px] lg:mt-[-120px] mt-[-50px] max-w-[1273px] mx-auto pb-[153px] md:flex justify-center relative hidden ">
+        <div className="xl:mt-[-170px] lg:mt-[-120px] mt-[-50px] max-w-[1273px] mx-auto lg:pb-[153px] pb-[100px] md:flex justify-center relative hidden ">
           <Image
             className=""
             width={1273}
