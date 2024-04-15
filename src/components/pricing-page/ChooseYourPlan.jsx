@@ -21,10 +21,10 @@ const ChooseYourPlan = () => {
           personalized wellness plans based on your genomic data, there’s a path
           for everyone
         </p>
-        <div className=" flex flex-wrap">
+        <div className=" flex flex-wrap mt-5">
           {yourPlan.map((value, index) => (
-            <div key={index} className="w-3/12">
-              <div className="max-w-[267px] min-h-[437px] border border-white rounded-[14px] p-5 group text-center hover:bg-white transition-all duration-200 ease-in-out">
+            <div key={index} className=" sm:w-6/12 xl:w-3/12 mt-5 px-3 lg:px-0">
+              <div className=" sm:min-h-[437px] lg:max-w-[480px] xl:max-w-[267px] xl:min-h-[437px] border border-white rounded-[14px] p-5 group text-center hover:bg-white transition-all duration-200 ease-in-out">
                 <p className=" font-Roboto font-semibold text-2xl text-white group-hover:text-black transition-all duration-200 ease-in-out">
                   {value.plan}
                 </p>
@@ -37,11 +37,11 @@ const ChooseYourPlan = () => {
                 <p className="mt-4 font-OpenSans text-xl text-white  group-hover:text-black transition-all duration-200 ease-in-out ">
                   {value.price}
                 </p>
-                <p className="mt-5 max-w-[206px] mx-auto font-OpenSans text-base text-white group-hover:text-black transition-all duration-200 ease-in-out ">
+                <p className="mt-5 font-OpenSans text-base text-white group-hover:text-black transition-all duration-200 ease-in-out ">
                   <span className=" font-bold">{value.descriptionto}</span>
                   {value.description}
                 </p>
-                <p className="mt-5 font-OpenSans text-base text-white group-hover:text-black transition-all duration-200 ease-in-out ">
+                <p className="mt-5 max-w-[224px] mx-auto font-OpenSans text-sm text-white group-hover:text-black transition-all duration-200 ease-in-out ">
                   {value.shortDescription}
                 </p>
               </div>

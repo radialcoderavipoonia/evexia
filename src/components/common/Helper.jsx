@@ -217,19 +217,30 @@ export const yourPlan = [
     month: "/month",
     descriptionto: "Offering:",
     description:
-      " access to our AI and machine learning algorithms for advanced and adaptable diet, exercise, and mental wellness guidance",
+      " includes everything in the Seed Plan, plus genomic testing focused on your dietary needs for personalized nutrition advice",
     shortDescription:
-      "Ideal for those looking to start their wellness journey with smart, data-driven recommendations",
+      "Perfect for individuals seeking to optimize their diet based on genetic predispositions",
   },
   {
-    plan: "Seed Plan",
-    title: "$9.99",
-    price: " Setup price: Free",
+    plan: "Bloom Plan",
+    title: "$29.99",
+    price: "Setup price: $149",
     month: "/month",
     descriptionto: "Offering:",
     description:
-      " access to our AI and machine learning algorithms for advanced and adaptable diet, exercise, and mental wellness guidance",
+      "expands on the Sprout Plan to include personalized exercise routines tailored to your genetic makeup",
     shortDescription:
-      "Ideal for those looking to start their wellness journey with smart, data-driven recommendations",
+      "Designed for those who want a comprehensive approach to physical wellness, combining diet and fitness",
+  },
+  {
+    plan: "Ultimate Plan",
+    title: "$39.99",
+    price: " Setup price: Free$199",
+    month: "/month",
+    descriptionto: "Offering:",
+    description:
+      " Offering: our most comprehensive plan, offering personalized guidance across diet, exercise, and mental wellness, all based on your genomic data",
+    shortDescription:
+      "The ultimate choice for individuals seeking a fully tailored wellness journey, with every aspect customized to their DNA",
   },
 ];
