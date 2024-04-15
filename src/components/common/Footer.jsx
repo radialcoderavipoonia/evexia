@@ -12,33 +12,36 @@ const Footer = () => {
   return (
     <>
       <div className=" bg-black">
-        <div className="xl:max-w-[1324px] container px-5 py-16 sm:py-20 md:py-24 lg:py-[100px] xl:pb-[118px] mx-auto">
-          <div className="flex flex-col md:flex-row md:gap-6 justify-between">
+        <div className="xl:max-w-[1140px] container px-3 xl:px-0 mx-auto pt-10 pb-[50px]">
+          <div className="flex flex-col md:flex-row md:gap-6 lg:justify-between justify-center ">
             <div className="md:w-4/12 lg:w-5/12">
               <Image
-                className="lg:w-[290px] w-[135px]"
+                className="lg:w-[290px] w-[135px] mx-auto"
                 width={185}
                 height={20}
                 src="/assets/common/footer-logo.svg"
                 alt="logo"
               />
-              <div className="pt-12 md:pt-8 lg:pt-[50px] ">
-                <div className="gap-1.5 flex flex-col">
-                  <p className="font-bold !leading-[140%] text-sm md:text-base text-shark uppercase">
-                    United states
-                  </p>
-                  <p className="font-medium text-sm text-riverBed !leading-[140%]">
-                    2055 Limestone Road, Wilmington, Delaware 19808
+              <div className=" pt-3 lg:pt-8">
+                <div className="gap-1.5 flex flex-col justify-center items-center lg:items-start">
+                  <p className=" font-OpenSans opacity-70 text-sm text-white !leading-[140%] max-w-[465px] mx-auto lg:mx-0 text-center lg:text-start">
+                    Embark on your journey to optimal health with Evexia. Our
+                    revolutionary approach, tailored to your unique genetic
+                    blueprint, promises a transformative path towards peak
+                    well-being.{" "}
                   </p>
                 </div>
-                <div className="flex gap-3 md:gap-1 xl:gap-3 pt-2">
+                <p className="font-OpenSans font-semibold text-xl text-white mt-5 text-center lg:text-start">
+                  Follow Us On
+                </p>
+                <div className="flex gap-3 md:gap-1 xl:gap-4 mt-1 justify-center lg:justify-start">
                   {socialIconList.map((value, index) => {
                     return (
                       <Link
                         aria-label={value.socialmedia}
                         target="_blank"
                         key={index}
-                        className="w-9 h-9 bg-[#EDEFF2] rounded-full flex justify-center items-center hover:bg-darkBlue duration-300 group"
+                        className=" hover:scale-105 transition-all duration-300 ease-in-out"
                         href={value.link}
                       >
                         {value.icon}
@@ -48,18 +51,18 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-8/12 lg:w-6/12 pt-6 sm:pt-8 md:pt-0">
+            <div className="md:w-8/12 lg:w-6/12 pt-6 sm:pt-10 md:pt-0">
               <div className="grid sm:grid-cols-3 gap-6 sm:gap-3 xl:gap-6">
                 <div>
-                  <p className="font-bold !leading-[140%] text-sm md:text-base text-shark pb-5 uppercase">
-                    Company
+                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                    Quick Links
                   </p>
-                  <ul className="flex flex-col gap-[9px]">
+                  <ul className="flex flex-col gap-[9px] mt-4">
                     {footerCompanyList.map((value, index) => {
                       return (
                         <li key={index}>
                           <Link
-                            className="font-medium text-sm text-white hover:text-shark duration-300 !leading-[140%]"
+                            className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
                             href={value.link}
                           >
                             {value.title}
@@ -70,15 +73,37 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <p className="font-bold !leading-[140%] text-sm md:text-base text-shark pb-5 uppercase">
-                    Solution
+                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                    Contact us
                   </p>
-                  <ul className="flex flex-col gap-[9px]">
+                  <div className=" flex flex-col gap-[9px] mt-4">
+                    <Link
+                      target="_blank"
+                      className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
+                      href="evexia@gmail.com"
+                    >
+                      evexia@gmail.com
+                    </Link>
+
+                    <Link
+                      target="_blank"
+                      className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out block"
+                      href="tel:+8802222274550"
+                    >
+                      +91 12345 6789 0
+                    </Link>
+                  </div>
+                </div>
+                <div>
+                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                    Legal
+                  </p>
+                  <ul className="flex flex-col gap-[9px] mt-4">
                     {footerSolutionList.map((value, index) => {
                       return (
                         <li key={index}>
                           <Link
-                            className="font-medium text-sm text-white hover:text-shark duration-300 !leading-[140%]"
+                            className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
                             href={value.link}
                           >
                             {value.title}
@@ -88,37 +113,14 @@ const Footer = () => {
                     })}
                   </ul>
                 </div>
-                <div>
-                  <p className="font-bold !leading-[140%] text-sm md:text-base text-shark pb-5 uppercase">
-                    Contact us
-                  </p>
-                  <p className="font-bold text-sm text-shark !leading-[140%] pb-1">
-                    Phone
-                  </p>
-                  <Link
-                    target="_blank"
-                    className="font-medium text-sm text-riverBed hover:text-shark duration-300 !leading-[140%]"
-                    href="tel:+8802222274550"
-                  >
-                    +88 02 2222 74550
-                  </Link>
-                  <p className="font-bold text-sm text-shark !leading-[140%] pb-1 pt-5 md:pt-6">
-                    Email
-                  </p>
-                  <Link
-                    target="_blank"
-                    className="font-medium text-sm text-riverBed hover:text-shark duration-300 !leading-[140%]"
-                    href="mailto:hello@nuport.io"
-                  >
-                    hello@nuport.io
-                  </Link>
-                  <p className="font-riverBed text-sm text-shark !leading-[140%] pt-5 md:pt-6 pb-1">
-                    Follow us
-                  </p>
-                </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="border-t footer-b">
+          <p className="font-OpenSans text-base text-white opacity-70 text-center pt-4 pb-[26px]">
+            @ {year} Copyright EVEXIA, All Rights Reserved
+          </p>
         </div>
       </div>
     </>

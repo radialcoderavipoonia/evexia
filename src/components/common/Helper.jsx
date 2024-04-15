@@ -1,6 +1,9 @@
 import {
   Dna,
   Evolving,
+  Facebook,
+  Instagram,
+  Linkedin,
   Precision,
   RealChange,
   TheGenesis,
@@ -112,6 +115,8 @@ export const faqList = [
     description:
       "Yes, we offer a free trial and live demos of our services to help you experience their value firsthand",
   },
+];
+export const faqListto = [
   {
     title: " How can I track my progress with Euvexia?",
     description:
@@ -144,55 +149,47 @@ export const footerCompanyList = [
     link: "#aboutus",
   },
   {
-    title: "Career",
-    link: "#career",
+    title: "How it works",
+    link: "#how",
   },
   {
-    title: "Blog",
-    link: "#blog",
+    title: "Benefits",
+    link: "#benefits",
   },
   {
-    title: "Videos",
-    link: "#videos",
+    title: "Testimonial",
+    link: "#testimonial",
   },
   {
-    title: "Return and Refund Policy",
-    link: "#policy",
+    title: "FAQ",
+    link: "#faq",
   },
 ];
 export const footerSolutionList = [
   {
-    title: "Roles",
+    title: "Terms & Conditions",
     link: "/",
   },
   {
-    title: "Industries",
-    link: "/",
-  },
-  {
-    title: "Use Cases",
+    title: "Privacy Policy",
     link: "/",
   },
 ];
 export const socialIconList = [
   {
     socialmedia: "Facebook",
-    // icon: <Facebook />,
+    icon: <Facebook />,
     link: "https://facebook.com",
   },
-  {
-    socialmedia: "Twitter",
-    // icon: <Twitter />,
-    link: "https://twitter.com/",
-  },
+
   {
     socialmedia: "Linkedin",
-    // icon: <Linkedin />,
+    icon: <Linkedin />,
     link: "https://www.linkedin.com/",
   },
   {
     socialmedia: "Instagram",
-    // icon: <Instagram />,
+    icon: <Instagram />,
     link: "https://www.instagram.com/",
   },
 ];
