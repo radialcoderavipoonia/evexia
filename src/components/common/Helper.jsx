@@ -15,22 +15,27 @@ import {
 
 export const benefits = [
   {
+    imageName: "dna_checking",
     icons: <Dna />,
     title: "Customized to Your DNA",
   },
   {
+    imageName: "dna_checking",
     icons: <Precision />,
     title: "Powered by precision",
   },
   {
+    imageName: "dna_checking",
     icons: <Wellness />,
     title: "Wellness inside out",
   },
   {
+    imageName: "dna_checking",
     icons: <Evolving />,
     title: "Evolving as you do",
   },
   {
+    imageName: "dna_checking",
     icons: <RealChange />,
     title: "Real results, real change",
   },

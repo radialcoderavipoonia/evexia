@@ -45,9 +45,9 @@ const OurFeature = () => {
             {tabContent.map((tab, index) => (
               <button
                 key={index}
-                className={`border-[1px] bg-transparent transition-all duration-300 hover:bg-gradient-to-r from-teal-500 to-blue-700 from-teal-600 to-blue-800 border-black rounded-lg pt-[18px] pb-[17px] w-[266px] flex justify-center items-center text-gradient-to-r from-white via-white to-[#27AA7E] text-[#004A6D] font-OpenSans font-semibold text-base leading-[150%] ${
+                className={`border-[1px] bg-transparent rounded-lg pt-[18px] pb-[17px] w-[266px] flex justify-center items-center text-gradient-to-r from-white via-white to-[#27AA7E] text-[#004A6D] font-OpenSans font-semibold sm:text-base text-sm leading-[150%] ${
                   activeTab === index
-                    ? "bg-gradient-to-r from-teal-500 to-blue-700 from-teal-600 to-blue-800 text-[#27AA7E]"
+                    ? "bg-features-tabs text-[#fff] border-transparent"
                     : ""
                 }`}
                 onClick={() => handleTabClick(index)}
@@ -58,14 +58,14 @@ const OurFeature = () => {
           </div>
           <div className="pt-10 flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between items-center pb-32">
             <div className="lg:w-3/5">
-              <p className="font-Roboto font-bold text-[48px] leading-[155%] text-black">
+              <p className="font-Roboto font-bold md:text-[48px] sm:text-[40px] text-[32px] leading-[155%] text-black">
                 {tabContent[activeTab].title}
               </p>
               <div className="pt-4 flex gap-7">
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans text-base leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
                   Deep dive into your DNA: get to the heart of your health with
                   in-depth genomic insights
                 </p>
@@ -74,7 +74,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans text-base leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
                   Beyond genetics: integrate comprehensive exam results for a
                   full health picture
                 </p>
@@ -83,7 +83,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans text-base leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
                   Track, adjust, improve: dynamic tracking aligns your lifestyle
                   with your genetic blueprint for tangible wellness wins
                 </p>
@@ -92,7 +92,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans text-base leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
                   See your health holistically: Evexia gives you a 360º view of
                   your wellness, integrating every health aspect into one
                   comprehensive roadmap
@@ -101,7 +101,7 @@ const OurFeature = () => {
             </div>
             <div className="lg:w-2/5 relative z-30">
               <Image
-                className="ps-[69px] pt-2"
+                className="sm:ps-[69px] pt-2 sm:w-[376px] w-[220px] lg:h-[498px] xl:h-[628px] h-[450px]"
                 width={307}
                 height={628}
                 src="/assets/images/our-features/iphone.png"
@@ -111,7 +111,7 @@ const OurFeature = () => {
           </div>
         </div>
         <Image
-          className="absolute lg:bottom-[24px] bottom-0 right-0 xl:w-[660px] w-[550px] h-[600px] xl:h-[618px]"
+          className="absolute lg:bottom-[114px] bottom-[50px] right-0 xl:w-[660px] sm:w-[550px] w-[400px] sm:h-[600px] h-[500px] xl:h-[618px]"
           width={660}
           height={618}
           src="/assets/images/our-features/iphone_bg.png"

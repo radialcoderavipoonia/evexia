@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body, html{
+  overflow-x: hidden !important;
+}
 @layer components {
   /* Styles for mobile navigation links */
   .mobile-nav-li {
@@ -19,4 +23,34 @@
 
   }
 }
-
+.animation_ping1{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 1s infinite;
+  
+}
+.animation_ping2{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 1.5s infinite;
+}
+.animation_ping3{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 2s infinite;
+}
+.animation_ping4{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 2.5s infinite;
+}
+.animation_ping5{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 3s infinite;
+}
+.animation_ping6{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 3.5s infinite;
+}
+.animation_ping7{
+  	animation: ping 4s cubic-bezier(0, 0, 0.2, 1) 4s infinite;
+}
+.svg_color_changed svg rect {
+fill: #5EBBA0;
+}
+.svg_default svg rect {
+fill: #004A6D;
+}
+.border_features_tab{
+  border: 1px solid linear-gradient(89.66deg, #27AA7E 0.22%, #004A6D 108.11%) !important;
+}

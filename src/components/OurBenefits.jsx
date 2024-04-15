@@ -1,8 +1,14 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { benefits } from "./common/Helper";
 
 const OurBenefits = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const handleTabClick = (index) => {
+    setActiveTab(index);
+  };
   return (
     <div className="xl:max-w-[1140px] xl:px-0 px-3 container md:py-[120px] sm:py-24 py-20 mx-auto">
       <div className="flex justify-center">
@@ -16,46 +22,58 @@ const OurBenefits = () => {
       </h2>
       <div className="sm:pt-[60px] pt-12 flex md:flex-row flex-col gap-6 justify-between items-center">
         <div className="md:w-1/2 sm:w-[90%] w-full me-2">
-          {benefits.map((tab, index) => {
-            return (
-              <div
-                key={index}
-                className={`rounded-lg border-[1px] border-[#208966] py-[11px] px-5 flex items-center w-full ${
-                  index === 0
-                    ? "bg-benefits-tabs mt-0"
-                    : "bg-transparent sm:mt-6 mt-4"
+          {benefits.map((tab, index) => (
+            <div
+              key={index}
+              className={`rounded-lg border-[1px] border-[#208966] py-[11px] px-5 flex items-center w-full sm:mb-6 mb-4 ${
+                index === activeTab
+                  ? "bg-benefits-tabs "
+                  : "bg-transparent "
+              }`}
+              onClick={() => handleTabClick(index)}
+            >
+              <span
+                className={` ${index === activeTab ? "svg_color_changed" : "svg_default"}`}
+              >
+                {tab.icons}
+              </span>
+              <p
+                className={`ps-5 font-Roboto font-semibold sm:text-xl text-base leading-[150%]  ${
+                  index === activeTab ? "text-white" : "text-black"
                 }`}
               >
-                <span>{tab.icons}</span>
-                <p
-                  className={`ps-5 font-Roboto font-semibold sm:text-xl text-base leading-[150%]  ${
-                    index === 0 ? "text-white" : "text-black"
-                  }`}
-                >
-                  {tab.title}
+                {tab.title}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="md:w-1/2 sm:w-[90%] w-full ">
+          {benefits.map((tab, index) => (
+            <div
+              key={index}
+              className={`rounded-lg bg-[#E5F4EF] sm:p-6 p-4  ${
+                index === activeTab ? "" : "hidden"
+              }`}
+            >
+              <Image
+                className=""
+                width={510}
+                height={275}
+                src={`/assets/images/our-benefits/${tab.imageName}.png`}
+                alt={`${tab.title} image`}
+              />
+              <div className="pt-5">
+                <p className="font-Roboto font-semibold text-base leading-[150%] text-black">
+                  {index + 1}. {tab.title}
+                </p>
+                <p className="pt-[10px] max-w-[498px] font-OpenSans font-normal text-base leading-[150%] text[#474B4A]">
+                  Blueprint for thriving: say goodbye to guesswork. Evexia
+                  crafts your wellness plan with the precision of your own
+                  genetics. Unique, like you
                 </p>
               </div>
-            );
-          })}
-        </div>
-        <div className="rounded-lg bg-[#E5F4EF] sm:p-6 p-4 md:w-1/2 sm:w-[90%] w-full">
-          <Image
-            className=""
-            width={510}
-            height={275}
-            src="/assets/images/our-benefits/dna_checking.png"
-            alt="dna checking image"
-          />
-          <div className="pt-5">
-            <p className="font-Roboto font-semibold text-base leading-[150%] text-black">
-              1. Customized to Your DNA
-            </p>
-            <p className="pt-[10px] max-w-[498px] font-OpenSans font-normal text-base leading-[150%] text[#474B4A]">
-              Blueprint for thriving: say goodbye to guesswork. Evexia crafts
-              your wellness plan with the precision of your own genetics.
-              Unique, like you
-            </p>
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
