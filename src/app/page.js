@@ -1,14 +1,12 @@
+import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import OurBenefits from "@/components/OurBenefits";
-import Image from "next/image";
-import NavBar from "@/components/common/navBar/NavBar";
-import React from "react";
-import RevealYourUltimate from "@/components/RevealYourUltimate";
 import OurFeature from "@/components/OurFeature";
+import PricingPlan from "@/components/PricingPlan";
+import RevealYourUltimate from "@/components/RevealYourUltimate";
 import Testimonial from "@/components/Testimonial";
 import WhoWeAre from "@/components/WhoWeAre";
-import Faq from "@/components/Faq";
 import Footer from "@/components/common/Footer";
 
 const page = () => {
@@ -21,6 +19,7 @@ const page = () => {
       <OurFeature />
       <Testimonial />
       <WhoWeAre />
+      <PricingPlan />
       <Faq />
       <Footer />
     </>
