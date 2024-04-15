@@ -7,6 +7,8 @@ import React from "react";
 import RevealYourUltimate from "@/components/RevealYourUltimate";
 import OurFeature from "@/components/OurFeature";
 import Testimonial from "@/components/Testimonial";
+import WhoWeAre from "@/components/WhoWeAre";
+import Faq from "@/components/Faq";
 
 const page = () => {
   return (
@@ -17,6 +19,8 @@ const page = () => {
       <OurBenefits />
       <OurFeature />
       <Testimonial />
+      <WhoWeAre />
+      <Faq />
     </>
   );
 };
