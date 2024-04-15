@@ -198,3 +198,38 @@ export const socialIconList = [
     link: "https://www.instagram.com/",
   },
 ];
+export const yourPlan = [
+  {
+    plan: "Seed Plan",
+    title: "$9.99",
+    price: " Setup price: Free",
+    month: "/month",
+    descriptionto: "Offering:",
+    description:
+      " access to our AI and machine learning algorithms for advanced and adaptable diet, exercise, and mental wellness guidance",
+    shortDescription:
+      "Ideal for those looking to start their wellness journey with smart, data-driven recommendations",
+  },
+  {
+    plan: "Sprout Plan",
+    title: "$19.99",
+    price: " Setup price: $99",
+    month: "/month",
+    descriptionto: "Offering:",
+    description:
+      " access to our AI and machine learning algorithms for advanced and adaptable diet, exercise, and mental wellness guidance",
+    shortDescription:
+      "Ideal for those looking to start their wellness journey with smart, data-driven recommendations",
+  },
+  {
+    plan: "Seed Plan",
+    title: "$9.99",
+    price: " Setup price: Free",
+    month: "/month",
+    descriptionto: "Offering:",
+    description:
+      " access to our AI and machine learning algorithms for advanced and adaptable diet, exercise, and mental wellness guidance",
+    shortDescription:
+      "Ideal for those looking to start their wellness journey with smart, data-driven recommendations",
+  },
+];

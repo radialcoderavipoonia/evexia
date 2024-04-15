@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import NavBar from "../common/navBar/NavBar";
 import CommonBtn from "../common/CommonBtn";
-import CommonBtnWhite from "../common/CommonBtnWhite";
+import CommonInput from "../common/CommonInput";
 
 const PricingHero = () => {
   return (
@@ -16,30 +16,44 @@ const PricingHero = () => {
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">
-              <span className="inline-block text-center uppercase bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-6 py-[10px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
-                AI-POWERED GENOMICS
-              </span>
-              <h1 className=" max-w-[595px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
-                Unlock Your Health’s Full Potential With{" "}
-                <span className=" text-green"> AI-Driven Genomics</span>
+              <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
+                Welcome To The Future Of Personalized Wellness:{" "}
+                <span className=" text-green">
+                  Evexias <br /> Pre-Launch Invitation
+                </span>
               </h1>
-              <p className=" font-OpenSans font-normal text-sm sm:text-base text-black opacity-70 max-w-[522px]">
-                Transform your life with your dna blueprint. Evexia turns the
-                key to peak wellness, tailoring your health and fitness with
-                precision only your genes can provide.
+              <p className=" capitalize font-OpenSans font-bold text-xl text-blue my-4">
+                embark on a journey tailored just for you
               </p>
-              <div className=" mt-[40px] flex gap-6">
-                <CommonBtn title="Explore Your DNA" />
-                <CommonBtnWhite title="Learn More" />
+              <p className=" font-OpenSans font-normal text-sm sm:text-base text-black opacity-70 max-w-[667px]">
+                Youre on the brink of transforming how you approach health and
+                wellness. evexia is not just an app; its a movement towards
+                truly personalized health care, grounded in your unique genetic
+                makeup. as we gear up for our exciting launch, we invite you to
+                be among the first to experience the power of living in harmony
+                with your dna.
+              </p>
+              <div className=" mt-[40px] flex border border-blue rounded-md max-w-[568px] justify-between">
+                <CommonInput
+                  type="email"
+                  placeholder="Enter Your Email address"
+                />
+                <CommonBtn title="Sign Up" />
               </div>
+              <a
+                href="#"
+                className="font-OpenSans italic text-sm text-blue block mt-[13px]"
+              >
+                Sign up now to get notified when we launch{" "}
+              </a>
             </div>
-            <div className="lg:w-6/12 xl:absolute right-[-8%] top-[-10%]">
+            <div className="lg:w-6/12 xl:absolute right-[-3%] top-[-12%]">
               <Image
-                className=" max-w-[300px] sm:max-w-[387px] mx-auto xl:max-w-[587px] xl:min-h-[628px]"
+                className=" max-w-[300px] sm:max-w-[387px] mx-auto lg:max-w-[500px] lg:min-h-[500px] xl:max-w-[607px] xl:min-h-[601px]"
                 sizes="100vw"
-                width={587}
-                height={628}
-                src="/assets/images/home-page/hero/unlock_your.webp"
+                width={607}
+                height={601}
+                src="/assets/images/pricing-page/hero/pricing-hero.webp"
                 alt="unlock-your"
               />
             </div>

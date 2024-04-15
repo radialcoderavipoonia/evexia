@@ -10,6 +10,8 @@ module.exports = {
       backgroundImage: {
         hero: "url('/assets/images/home-page/hero/hero_section.webp')",
         commonSection: "url('/assets/common/reveal-common.webp')",
+        choosePlan:
+          "url('/assets/images/pricing-page/pricing-plan/background.png')",
         "benefits-tabs":
           " linear-gradient(180deg, rgba(39, 170, 126, 0.22) 19.21%, rgba(0, 74, 109, 0.22) 100%),linear-gradient(89.78deg, #27AA7E 2.16%, #004A6D 99.81%)",
         "features-tabs":
@@ -21,8 +23,9 @@ module.exports = {
         "footer-b":
           "linear-gradient(90deg, rgba(255, 255, 255, 0) -9.22%, rgba(255, 255, 255, 0.81) 51%, rgba(153, 153, 153, 0) 109.41%)",
       },
-        colors: {
-        'features-tabs-border': "linear-gradient(89.66deg, #27AA7E 0.22%, #004A6D 108.11%)",
+      colors: {
+        "features-tabs-border":
+          "linear-gradient(89.66deg, #27AA7E 0.22%, #004A6D 108.11%)",
       },
       fontFamily: {
         Roboto: ["Roboto", "sans-serif"],

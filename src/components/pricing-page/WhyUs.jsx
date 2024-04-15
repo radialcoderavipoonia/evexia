@@ -1,10 +1,12 @@
 import React from "react";
 import { GreenRightIcon } from "../common/Icons";
 import Image from "next/image";
+import CommonInput from "../common/CommonInput";
+import CommonBtn from "../common/CommonBtn";
 
 const WhyUs = () => {
   return (
-    <div className=" py-32 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
+    <div className="py-14 sm:py-16 md:py-20 lg:py-[120px] xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
       <div className="flex justify-center">
         <span className="text-center bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           WHY US?
@@ -20,8 +22,9 @@ const WhyUs = () => {
         This is your chance to be at the forefront of personalized health, with
         tools and insights tailored specifically to you
       </p>
-      <div className="pt-4">
-        
+      <div className="mt-4 flex sm:flex-row flex-col justify-between mx-auto max-w-[494px] w-full border border-[#004A6D] rounded-md">
+        <CommonInput type="email" placeholder="Get Rewarded for Referrals" />
+        <CommonBtn title="Refer Now" />
       </div>
       <div className="lg:pt-[90px] sm:pt-[60px] pt-12  relative">
         <div className="flex justify-between">
