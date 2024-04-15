@@ -12,7 +12,7 @@ const PricingHero = () => {
         <NavBar />
       </div>
       <div className=" bg-hero bg-no-repeat bg-cover bg-center overflow-hidden">
-        <div className=" container xl:max-w-[1140px] mx-auto px-3 xl:px-0 relative py-14 md:py-16 lg:pt-[83px]  lg:pb-[183px]">
+        <div className=" container xl:max-w-[1140px] mx-auto px-3 xl:px-0 relative py-14 md:py-16 lg:pt-[83px] lg:pb-[183px]">
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">

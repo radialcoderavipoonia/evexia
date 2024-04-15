@@ -10,7 +10,7 @@ const OurBenefits = () => {
     setActiveTab(index);
   };
   return (
-    <div className="xl:max-w-[1140px] xl:px-0 px-3 container md:py-[120px] sm:py-24 py-20 mx-auto">
+    <div className="xl:max-w-[1140px] xl:px-0 px-3 container lg:py-[120px] sm:py-24 py-20 mx-auto">
       <div className="flex justify-center">
         <span className="text-center bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           OUR BENEFITS

@@ -5,7 +5,7 @@ import Image from "next/image";
 const HowItWorks = () => {
   return (
     <div className="relative">
-      <div className="md:pt-[120px] sm:pt-24 pt-20 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
+      <div className="lg:pt-[120px] sm:pt-24 pt-20 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
         <div className="flex justify-center">
           <span className="text-center md:mt-4 bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             HOW IT WORKS
@@ -15,7 +15,7 @@ const HowItWorks = () => {
           How Evexia
           <span className="text-[#27AA7E]">Transforms Wellness</span>
         </h2>
-        <div className="md:pt-[90px] sm:pt-[70px] pt-12  relative">
+        <div className="lg:pt-[90px] sm:pt-[60px] pt-12  relative">
           <div className="flex justify-between">
             <div className=" lg:hidden sm:block hidden w-[20%]">
               <Image

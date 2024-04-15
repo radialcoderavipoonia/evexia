@@ -19,7 +19,7 @@ const Faq = () => {
     <>
       <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20  lg:pb-[120px]">
         <div className="flex justify-center flex-col items-center">
-          <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          <span className="text-center lg:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             FREQUENTLY ASKED QUESTION
           </span>
           <h2 className="pt-2 text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">

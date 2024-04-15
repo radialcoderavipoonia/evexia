@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const CommonSection = (props) => {
   return (
-    <div className="">
-      <div className="container max-w-[994px] mx-auto  bg-commonSection bg-no-repeat bg-cover rounded-[20px]">
+    <div className="md:mx-0 mx-3">
+      <div className="container xl:max-w-[994px] mx-auto  bg-commonSection bg-no-repeat bg-cover rounded-[20px]">
         <div className="p-5 sm:p-8 lg:px-[60px] lg:py-[61px]">
           <div className="flex flex-col-reverse md:flex-row justify-center md:justify-between ">
             <div className=" mt-5 md:mt-0 text-center md:text-start">
@@ -30,7 +30,7 @@ const CommonSection = (props) => {
               />
             </div>
           </div>
-          <p className="font-OpenSans text-sm italic text-white opacity-90 mt-[30px] text-center underline">
+          <p className="font-OpenSans text-sm italic xl:whitespace-nowrap text-white opacity-90 mt-[30px] text-center underline">
             {props.shortDecoration}
           </p>
         </div>

@@ -5,7 +5,7 @@ const WhoWeAre = () => {
   return (
     <div className="xl:max-w-[1140px] xl:px-0 px-3 container mx-auto py-14 sm:py-16 md:py-20  lg:py-[120px]">
       <div className="flex justify-center flex-col items-center">
-        <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+        <span className="text-center lg:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           HOW IT WORKS
         </span>
         <h2 className="pt-2 text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
@@ -13,7 +13,7 @@ const WhoWeAre = () => {
           <span className="text-green">We Are</span>
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center mt-9">
+      <div className="flex flex-wrap justify-center sm:mt-9 mt-6">
         {aboutUs.map((value, index) => (
           <div key={index} className="md:w-6/12 lg:w-5/12 xl:w-4/12 mt-6">
             <div className=" w-full max-w-[500px] xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] px-3 xl:px-0 overflow-hidden rounded-[20px]">
