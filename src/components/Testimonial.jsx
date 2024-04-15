@@ -1,5 +1,6 @@
 import React from "react";
 import { DoubleComma } from "./common/Icons";
+import Image from "next/image";
 
 const Testimonial = () => {
   return (
@@ -32,6 +33,73 @@ const Testimonial = () => {
         <p className="text-center font-OpenSans font-normal text-sm leading-[150%] text-[#B9D5D0]">
           Age - 34
         </p>
+        <div className="xl:mt-[-170px] lg:mt-[-120px] mt-[-50px] max-w-[1273px] mx-auto pb-[153px] md:flex justify-center relative hidden ">
+          <Image
+            className=""
+            width={1273}
+            height={628}
+            src="/assets/images/testimonial/images_circle.png"
+            alt="images circles"
+          />
+          <Image
+            className="absolute animation_ping1 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[26%] top-[21%] left-[24%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/first_men.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping2 animate-ping md:w-[61px] w-[35px] md:h-[61px] h-[35px] lg:top-[28%] top-[21%] right-[26%]"
+            width={61}
+            height={61}
+            src="/assets/images/testimonial/third_men.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping3 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[35%] top-[29%] right-[10%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/first_men.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping4 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[53%] top-[43%] right-[44%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/third_men.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping5 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[34%] top-[28%] left-[10%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/second_men.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping6 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[57%] top-[48%] left-[15%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/first_girl.png"
+            alt="first men image circles"
+          />
+          <Image
+            className="absolute animation_ping7 animate-ping md:w-[50px] w-[35px] md:h-[50px] h-[35px] lg:top-[62%] top-[52%] right-[20%]"
+            width={50}
+            height={50}
+            src="/assets/images/testimonial/first_girl.png"
+            alt="first men image circles"
+          />
+        </div>
+        <div className="pb-20 sm:mt-[-50px] md:hidden block">
+          <Image
+            className=""
+            width={1273}
+            height={628}
+            src="/assets/images/testimonial/small_screen_circle_image.png"
+            alt="images circles"
+          />
+        </div>
       </div>
     </div>
   );

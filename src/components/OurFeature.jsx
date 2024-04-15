@@ -45,9 +45,9 @@ const OurFeature = () => {
             {tabContent.map((tab, index) => (
               <button
                 key={index}
-                className={`border-[1px] bg-transparent transition-all duration-300 hover:bg-gradient-to-r from-teal-500 to-blue-700 from-teal-600 to-blue-800 border-black rounded-lg pt-[18px] pb-[17px] w-[266px] flex justify-center items-center text-gradient-to-r from-white via-white to-[#27AA7E] text-[#004A6D] font-OpenSans font-semibold text-base leading-[150%] ${
+                className={`border-[1px] bg-transparent rounded-lg pt-[18px] pb-[17px] w-[266px] flex justify-center items-center text-gradient-to-r from-white via-white to-[#27AA7E] text-[#004A6D] font-OpenSans font-semibold text-base leading-[150%] ${
                   activeTab === index
-                    ? "bg-gradient-to-r from-teal-500 to-blue-700 from-teal-600 to-blue-800 text-[#27AA7E]"
+                    ? "bg-features-tabs text-[#fff] border-transparent"
                     : ""
                 }`}
                 onClick={() => handleTabClick(index)}
