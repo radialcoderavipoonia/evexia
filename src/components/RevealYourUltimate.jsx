@@ -10,6 +10,7 @@ const RevealYourUltimate = () => {
         btnTitle="Unlock My Potential"
         imgSrc="/assets/images/home-page/reveal-your/reveal_your.webp"
         shortDecoration="Step into the future of health personalized just for you. Why wait to live your best life?"
+        bar="button"
       />
     </div>
   );

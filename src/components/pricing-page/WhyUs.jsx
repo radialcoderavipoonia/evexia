@@ -1,10 +1,31 @@
 import React from "react";
 import { GreenRightIcon } from "../common/Icons";
 import Image from "next/image";
+import CommonInput from "../common/CommonInput";
+import CommonBtn from "../common/CommonBtn";
 
 const WhyUs = () => {
   return (
-    <div className=" py-32 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
+    <div className="py-14 sm:py-16 md:py-20 lg:py-[120px] xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
+      <div className="flex justify-center">
+        <span className="text-center bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          WHY US?
+        </span>
+      </div>
+      <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+        Why join
+        <span className="text-[#27AA7E]">our pre-launch?</span>
+      </h2>
+      <p className="pt-4 text-center max-w-[792px] mx-auto font-OpenSans font-normal text-base leading-[150%] text-[#4D4D4D]">
+        By signing up today, you’ll gain early access to our revolutionary
+        platform, designed to empower your wellness journey like never before.
+        This is your chance to be at the forefront of personalized health, with
+        tools and insights tailored specifically to you
+      </p>
+      <div className="mt-4 flex sm:flex-row flex-col justify-between mx-auto max-w-[494px] w-full border border-[#004A6D] rounded-md">
+        <CommonInput type="email" placeholder="Get Rewarded for Referrals" />
+        <CommonBtn title="Refer Now" />
+      </div>
       <div className="lg:pt-[90px] sm:pt-[60px] pt-12  relative">
         <div className="flex justify-between">
           <div className=" lg:hidden sm:block hidden w-[20%]">
@@ -86,11 +107,11 @@ const WhyUs = () => {
                   <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
                     <span className="font-bold">Refer & thrive:</span> We
                     believe in the power of community, and as part of our
-                    pre-launch, were introducing a referral program that
-                    rewards you for spreading the word. For every friend you
-                    refer who signs up for our pre-launch, youll receive an
-                    additional discount on your subscription. The more friends
-                    you bring into the Evexia family, the more you save
+                    pre-launch, were introducing a referral program that rewards
+                    you for spreading the word. For every friend you refer who
+                    signs up for our pre-launch, youll receive an additional
+                    discount on your subscription. The more friends you bring
+                    into the Evexia family, the more you save
                   </p>
                 </div>
               </div>

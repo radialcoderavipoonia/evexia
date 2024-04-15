@@ -19,15 +19,15 @@ const PricingHero = () => {
               <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
                 Welcome To The Future Of Personalized Wellness:{" "}
                 <span className=" text-green">
-                  Evexia's <br /> Pre-Launch Invitation
+                  Evexias <br /> Pre-Launch Invitation
                 </span>
               </h1>
               <p className=" capitalize font-OpenSans font-bold text-xl text-blue my-4">
                 embark on a journey tailored just for you
               </p>
               <p className=" font-OpenSans font-normal text-sm sm:text-base text-black opacity-70 max-w-[667px]">
-                You're on the brink of transforming how you approach health and
-                wellness. evexia is not just an app; it's a movement towards
+                Youre on the brink of transforming how you approach health and
+                wellness. evexia is not just an app; its a movement towards
                 truly personalized health care, grounded in your unique genetic
                 makeup. as we gear up for our exciting launch, we invite you to
                 be among the first to experience the power of living in harmony
