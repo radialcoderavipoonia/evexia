@@ -29,15 +29,15 @@ const OurFeature = () => {
       <div className="relative">
         <div className="xl:max-w-[1140px] xl:px-0 px-3 mx-auto container ">
           <div className="flex justify-center">
-            <span className="text-center bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+            <span className="text-center bg-mintcream text-green border-[1px] border-green px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
               OUR FEATURES
             </span>
           </div>
           <h2 className="pt-2 text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
             Evexia Features: Revolutionize
-            <span className="text-[#27AA7E]">Your Wellness</span>
+            <span className="text-green">Your Wellness</span>
           </h2>
-          <p className="pt-4 text-center text-[#4E4E4E] font-normal text-base leading-[150%] font-OpenSans">
+          <p className="pt-4 text-center text-gravel font-normal text-base leading-[150%] font-OpenSans">
             Your path to wellness, Tailored down to your DNA
           </p>
 
@@ -45,12 +45,12 @@ const OurFeature = () => {
             {tabContent.map((tab, index) => (
               <div
                 key={index}
-                className=" bg-gradient-to-r rounded-lg from-[#219A7C] to-[#055570] p-[1.5px] "
+                className=" bg-gradient-to-r rounded-lg from-jade to-petrol p-[1.5px] "
               >
                 <button
-                  className={` bg-white  rounded-lg pt-[18px] pb-[17px] w-[264px] flex justify-center items-center text-gradient-to-r from-white via-white to-[#27AA7E] text-[#004A6D] font-OpenSans font-semibold sm:text-base text-sm leading-[150%] ${
+                  className={` bg-white  rounded-lg pt-[18px] pb-[17px] w-[264px] flex justify-center items-center text-gradient-to-r from-white via-white to-green text-blue font-OpenSans font-semibold sm:text-base text-sm leading-[150%] ${
                     activeTab === index
-                      ? "bg-features-tabs text-[#fff] border-transparent"
+                      ? "bg-features-tabs text-white border-transparent"
                       : ""
                   }`}
                   onClick={() => handleTabClick(index)}
@@ -69,7 +69,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-liver">
                   Deep dive into your DNA: get to the heart of your health with
                   in-depth genomic insights
                 </p>
@@ -78,7 +78,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-liver">
                   Beyond genetics: integrate comprehensive exam results for a
                   full health picture
                 </p>
@@ -87,7 +87,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-liver">
                   Track, adjust, improve: dynamic tracking aligns your lifestyle
                   with your genetic blueprint for tangible wellness wins
                 </p>
@@ -96,7 +96,7 @@ const OurFeature = () => {
                 <span>
                   <GreenRightIcon />
                 </span>
-                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-[#4D4D4D]">
+                <p className="max-w-[469px] font-normal font-OpenSans sm:text-base text-sm leading-[155%] text-liver">
                   See your health holistically: Evexia gives you a 360º view of
                   your wellness, integrating every health aspect into one
                   comprehensive roadmap

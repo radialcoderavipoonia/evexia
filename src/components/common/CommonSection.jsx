@@ -36,9 +36,15 @@ const CommonSection = (props) => {
                 }`}
               >
                 <div className="flex sm:flex-row flex-col border border-white rounded-md mt-6">
-                  <input className="bg-transparent px-5 py-[14px] outline-none w-full font-semibold text-sm leading-[130%] text-[#B7D6D5] font-OpenSans" placeholder="Enter Your Email address" type="email" />
-                  <button className="bg-white px-7 py-[14px] whitespace-nowrap font-OpenSans font-semibold text-base leading-[150%] text-[#004A6D] rounded-md">Secure Your Spot</button>
-               </div>
+                  <input
+                    className="bg-transparent px-5 py-[14px] outline-none w-full font-semibold text-sm leading-[130%] text-cyan font-OpenSans"
+                    placeholder="Enter Your Email address"
+                    type="email"
+                  />
+                  <button className="bg-white px-7 py-[14px] whitespace-nowrap font-OpenSans font-semibold text-base leading-[150%] text-blue rounded-md">
+                    Secure Your Spot
+                  </button>
+                </div>
               </div>
             </div>
             <div>

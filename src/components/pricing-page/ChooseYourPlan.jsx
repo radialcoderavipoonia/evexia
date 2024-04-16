@@ -7,7 +7,7 @@ const ChooseYourPlan = () => {
     <div className="bg-choosePlan bg-cover bg-no-repeat md:pt-24 md:pb-20 sm:py-16 py-12">
       <div className="container xl:max-w-[1140px] mx-auto px-3 xl:px-0">
         <div className="flex justify-center">
-          <span className="text-center md:mt-4 bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             HOW IT WORKS
           </span>
         </div>

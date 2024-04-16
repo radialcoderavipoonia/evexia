@@ -8,21 +8,21 @@ const WhyUs = () => {
   return (
     <div className="py-14 sm:py-16 md:py-20 lg:py-[120px] xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
       <div className="flex justify-center">
-        <span className="text-center bg-[#E5F4EF] text-[#27AA7E] border-[1px] border-[#27AA7E] px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+        <span className="text-center bg-mintcream text-green border-[1px] border-green px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           WHY US?
         </span>
       </div>
       <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
         Why join
-        <span className="text-[#27AA7E]">our pre-launch?</span>
+        <span className="text-green">our pre-launch?</span>
       </h2>
-      <p className="pt-4 text-center max-w-[792px] mx-auto font-OpenSans font-normal text-base leading-[150%] text-[#4D4D4D]">
+      <p className="pt-4 text-center max-w-[792px] mx-auto font-OpenSans font-normal text-base leading-[150%] text-liver">
         By signing up today, you’ll gain early access to our revolutionary
         platform, designed to empower your wellness journey like never before.
         This is your chance to be at the forefront of personalized health, with
         tools and insights tailored specifically to you
       </p>
-      <div className="mt-4 flex sm:flex-row flex-col justify-between mx-auto max-w-[494px] w-full border border-[#004A6D] rounded-md">
+      <div className="mt-4 flex sm:flex-row flex-col justify-between mx-auto max-w-[494px] w-full border border-blue rounded-md">
         <CommonInput type="email" placeholder="Get Rewarded for Referrals" />
         <CommonBtn title="Refer Now" />
       </div>
@@ -40,7 +40,7 @@ const WhyUs = () => {
           <div className="sm:w-[80%] lg:w-full sm:max-w-[unset] max-w-[350px] mx-auto">
             {/* FIRST  */}
             <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between lg:flex-row flex-col">
-              <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-[#E6E6E6] sm:p-6 p-4 rounded-2xl relative">
+              <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
                 <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
                   Exclusive pre-launch benefits
                 </p>
@@ -48,7 +48,7 @@ const WhyUs = () => {
                   <span>
                     <GreenRightIcon />
                   </span>
-                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
+                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-liver">
                     <span className="font-bold">Early access:</span> be the
                     first to explore and benefit from your personalized health,
                     fitness, and mental well-being plans
@@ -58,7 +58,7 @@ const WhyUs = () => {
                   <span>
                     <GreenRightIcon />
                   </span>
-                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
+                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-liver">
                     <span className="font-bold">Insider updates: </span> receive
                     the latest news, updates, and tips from our team of experts,
                     keeping you informed every step of the way
@@ -68,7 +68,7 @@ const WhyUs = () => {
                   <span>
                     <GreenRightIcon />
                   </span>
-                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
+                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-liver">
                     <span className="font-bold">Special offers: </span> enjoy
                     exclusive discounts and offers available only to our
                     pre-launch community
@@ -92,11 +92,11 @@ const WhyUs = () => {
                   className="xl:h-[323px] lg:h-[320px] lg:w-[498px] w-full"
                   width={498}
                   height={323}
-                  src="/assets/images/why-us/pre_launch.png"
+                  src="/assets/images/pricing-page/why-us/pre_launch.png"
                   alt="personalized plan image"
                 />
               </div>
-              <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-[#E6E6E6] sm:p-6 p-4 rounded-2xl relative">
+              <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
                 <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
                   Special pre-launch invitation
                 </p>
@@ -104,7 +104,7 @@ const WhyUs = () => {
                   <span>
                     <GreenRightIcon />
                   </span>
-                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-[#4D4D4D]">
+                  <p className="ps-[14px] max-w-[432px] font-OpenSans font-normal text-base laeding-[150%] text-liver">
                     <span className="font-bold">Refer & thrive:</span> We
                     believe in the power of community, and as part of our
                     pre-launch, were introducing a referral program that rewards
