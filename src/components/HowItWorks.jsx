@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HowItWorks = () => {
   return (
-    <div className="relative">
+    <div id="howitworks" className="relative">
       <div className="lg:pt-[120px] sm:pt-24 pt-20 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
         <div className="flex justify-center">
           <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-[23.25px] py-[9.2px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">

@@ -19,13 +19,15 @@ const Footer = () => {
         <div className="xl:max-w-[1140px] container px-3 xl:px-0 mx-auto pt-10 pb-[50px]">
           <div className="flex flex-col lg:flex-row lg:gap-6 lg:justify-between justify-center ">
             <div className="lg:w-4/12 xl:w-5/12">
-              <Image
-                className="lg:w-[290px] w-[135px] mx-auto lg:mx-0"
-                width={185}
-                height={20}
-                src="/assets/common/footer-logo.svg"
-                alt="logo"
-              />
+              <Link href="/">
+                <Image
+                  className="lg:w-[290px] w-[135px] mx-auto lg:mx-0"
+                  width={185}
+                  height={20}
+                  src="/assets/common/footer-logo.svg"
+                  alt="logo"
+                />
+              </Link>
               <div className=" pt-3 lg:pt-8">
                 <div className="gap-1.5 flex flex-col justify-center items-center lg:items-start">
                   <p className=" font-OpenSans opacity-70 text-sm text-white !leading-[140%] max-w-[465px] mx-auto lg:mx-0 text-center lg:text-start">

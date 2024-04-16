@@ -3,7 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+*{
+  scroll-behavior: smooth !important;
+}
 
 @layer components {
   /* Styles for mobile navigation links */

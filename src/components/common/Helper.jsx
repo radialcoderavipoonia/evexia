@@ -160,7 +160,7 @@ export const footerCompanyList = [
   },
   {
     title: "How it works",
-    link: "#how",
+    link: "#howitworks",
   },
   {
     title: "Benefits",

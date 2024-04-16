@@ -7,7 +7,7 @@ import {
 
 const Testimonial = () => {
   return (
-    <div className="bg-[url('/assets/images/home-page/testimonial/background.webp')] bg-no-repeat bg-cover lg:mt-[120px] sm:mt-24 mt-20 relative">
+    <div id="testimonial" className="bg-[url('/assets/images/home-page/testimonial/background.webp')] bg-no-repeat bg-cover lg:mt-[120px] sm:mt-24 mt-20 relative">
       <div className="lg:pt-[130px] md:pt-[100px] pt-20">
         <div className="flex justify-center">
           <span className="text-center bg-silvertree text-white border-[1px] border-white px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">

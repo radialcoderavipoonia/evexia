@@ -18,7 +18,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20 relative lg:pb-[120px]">
+      <div id="faq" className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20 relative lg:pb-[120px]">
         <div className="absolute right-[-11%] top-[17%] hidden lg:block">
           <Faqs />
         </div>

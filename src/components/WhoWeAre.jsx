@@ -4,7 +4,7 @@ import { WhoYou } from "./common/Icons";
 
 const WhoWeAre = () => {
   return (
-    <div className=" relative">
+    <div id="aboutus" className=" relative">
       <div className=" absolute right-10 bottom-[10%] hidden lg:block">
         <WhoYou />
       </div>
