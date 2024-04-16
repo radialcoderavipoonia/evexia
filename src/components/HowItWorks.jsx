@@ -246,7 +246,7 @@ const HowItWorks = () => {
         </div>
       </div>
       <Image
-        className="absolute left-[7.5%] w-[86px] h-[185px] top-[555px] lg:block hidden"
+        className="absolute left-[7.5%] w-[86px] h-[185px] top-[555px] lg:block hidden "
         width={86}
         height={185}
         src="/assets/images/home-page/how-it-works/left_side_lines.png"

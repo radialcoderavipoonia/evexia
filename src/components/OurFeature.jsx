@@ -41,14 +41,14 @@ const OurFeature = () => {
             Your path to wellness, Tailored down to your DNA
           </p>
 
-          <div className="sm:pt-[60px] pt-12 flex flex-wrap justify-center sm:gap-6 gap-4">
+          <div className="sm:pt-[60px] pt-12 flex flex-wrap xl:flex-nowrap justify-center sm:gap-6 gap-4">
             {tabContent.map((tab, index) => (
               <div
                 key={index}
                 className=" bg-gradient-to-r rounded-lg from-jade to-petrol p-[1.5px] "
               >
                 <button
-                  className={` bg-white  rounded-lg pt-[18px] pb-[17px] w-[264px] flex justify-center items-center text-gradient-to-r from-white via-white to-green text-blue font-OpenSans font-semibold sm:text-base text-sm leading-[150%] ${
+                  className={` bg-white h-[61px]  rounded-lg pt-[18px] pb-[17px] w-[266px] flex justify-center items-center text-gradient-to-r from-white via-white to-green text-blue font-OpenSans font-semibold sm:text-base text-sm leading-[150%] ${
                     activeTab === index
                       ? "bg-features-tabs text-white border-transparent"
                       : ""
@@ -65,7 +65,7 @@ const OurFeature = () => {
               <p className="font-Roboto font-bold md:text-7xl sm:text-5xl text-3xl leading-[155%] text-black">
                 {tabContent[activeTab].title}
               </p>
-              <div className="pt-4 flex gap-7">
+              <div className="pt-4 flex gap-[14px]">
                 <span>
                   <GreenRightIcon />
                 </span>
@@ -74,7 +74,7 @@ const OurFeature = () => {
                   in-depth genomic insights
                 </p>
               </div>
-              <div className="pt-4 flex gap-7">
+              <div className="pt-4 flex gap-[14px]">
                 <span>
                   <GreenRightIcon />
                 </span>
@@ -83,7 +83,7 @@ const OurFeature = () => {
                   full health picture
                 </p>
               </div>
-              <div className="pt-4 flex gap-7">
+              <div className="pt-4 flex gap-[14px]">
                 <span>
                   <GreenRightIcon />
                 </span>
@@ -92,7 +92,7 @@ const OurFeature = () => {
                   with your genetic blueprint for tangible wellness wins
                 </p>
               </div>
-              <div className="pt-4 flex gap-7">
+              <div className="pt-4 flex gap-[14px]">
                 <span>
                   <GreenRightIcon />
                 </span>
@@ -120,6 +120,20 @@ const OurFeature = () => {
           height={618}
           src="/assets/images/home-page/our-features/iphone_bg.png"
           alt="iphone bg image"
+        />
+        <Image
+          className="absolute left-[6.5%] w-[79px] h-[169px] top-[95px] lg:block hidden rotate-[17.17deg]"
+          width={79}
+          height={169}
+          src="/assets/images/home-page/how-it-works/left_side_lines.png"
+          alt="left side lines image"
+        />
+        <Image
+          className="absolute left-[6.5%] w-[79px] h-[169px] top-[95px] lg:block hidden rotate-[17.17deg]"
+          width={79}
+          height={169}
+          src="/assets/images/home-page/how-it-works/left_side_lines.png"
+          alt="left side lines image"
         />
       </div>
     </>
