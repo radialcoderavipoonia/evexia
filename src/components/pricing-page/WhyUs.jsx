@@ -120,7 +120,7 @@ const WhyUs = () => {
         </div>
         <div className="absolute top-[60px] left-[50%] translate-x-[-50%] lg:block hidden">
           <Image
-            className="h-[710px]"
+            className="h-[710px] object-cover"
             width={72}
             height={1700}
             src="/assets/images/pricing-page/why-us/roadmap_dot.png"

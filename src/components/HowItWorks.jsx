@@ -236,7 +236,7 @@ const HowItWorks = () => {
           </div>
           <div className="absolute top-[60px] left-[50%] translate-x-[-50%] lg:block hidden">
             <Image
-              className="h-[1700px]"
+              className="h-[1700px] "
               width={72}
               height={1700}
               src="/assets/images/home-page/how-it-works/roadmap_dots.png"
