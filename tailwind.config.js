@@ -32,6 +32,17 @@ module.exports = {
         OpenSans: ["Open Sans", "sans-serif"],
         NotoSans: ["Noto Sans", "sans-serif"],
       },
+      fontSize: {
+        "2xl": "24px",
+        "3xl": "32px",
+        "4xl": "36px",
+        "5xl": "40px",
+        "6xl": "42px",
+        "7xl": "48px",
+        "8xl": "58px",
+        "9xl": "60px",
+        "10xl": "80px",
+      },
       colors: {
         green: "#27AA7E",
         blue: "#004A6D",

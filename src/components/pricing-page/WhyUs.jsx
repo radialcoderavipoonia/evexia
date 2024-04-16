@@ -12,7 +12,7 @@ const WhyUs = () => {
           WHY US?
         </span>
       </div>
-      <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+      <h2 className="pt-[6px] text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
         Why join
         <span className="text-green">our pre-launch?</span>
       </h2>
@@ -41,7 +41,7 @@ const WhyUs = () => {
             {/* FIRST  */}
             <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between lg:flex-row flex-col">
               <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                   Exclusive pre-launch benefits
                 </p>
                 <div className="pt-4 flex">
@@ -97,7 +97,7 @@ const WhyUs = () => {
                 />
               </div>
               <div className="border-[1px] xl:h-[323px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                   Special pre-launch invitation
                 </p>
                 <div className="pt-4 flex">

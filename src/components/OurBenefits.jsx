@@ -16,7 +16,7 @@ const OurBenefits = () => {
           OUR BENEFITS
         </span>
       </div>
-      <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+      <h2 className="pt-[6px] text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
         Evexia Benefits: Tailored{" "}
         <span className="text-green">Wellness Unlocked</span>
       </h2>
@@ -26,14 +26,14 @@ const OurBenefits = () => {
             <div
               key={index}
               className={`rounded-lg border-[1px] border-eucalyptus py-[11px] px-5 flex items-center w-full sm:mb-6 mb-4 ${
-                index === activeTab
-                  ? "bg-benefits-tabs "
-                  : "bg-transparent "
+                index === activeTab ? "bg-benefits-tabs " : "bg-transparent "
               }`}
               onClick={() => handleTabClick(index)}
             >
               <span
-                className={` ${index === activeTab ? "svg_color_changed" : "svg_default"}`}
+                className={` ${
+                  index === activeTab ? "svg_color_changed" : "svg_default"
+                }`}
               >
                 {tab.icons}
               </span>

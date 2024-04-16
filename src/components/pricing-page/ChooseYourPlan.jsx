@@ -11,7 +11,7 @@ const ChooseYourPlan = () => {
             HOW IT WORKS
           </span>
         </div>
-        <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-white">
+        <h2 className="pt-[6px] text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-white">
           Choose Your Plan
         </h2>
         <p className="font-OpenSans font-normal text-sm sm:text-base text-white max-w-[864px] mx-auto text-center mt-4">
@@ -28,7 +28,7 @@ const ChooseYourPlan = () => {
                 <p className=" font-Roboto font-semibold text-2xl text-white group-hover:text-black transition-all duration-200 ease-in-out">
                   {value.plan}
                 </p>
-                <p className="mt-4 font-OpenSans text-[42px] font-semibold leading-8 text-white group-hover:text-blue transition-all duration-200 ease-in-out">
+                <p className="mt-4 font-OpenSans text-6xl font-semibold leading-8 text-white group-hover:text-blue transition-all duration-200 ease-in-out">
                   {value.title}{" "}
                   <span className=" font-OpenSans text-base  group-hover:text-black transition-all duration-200 ease-in-out ">
                     {value.month}

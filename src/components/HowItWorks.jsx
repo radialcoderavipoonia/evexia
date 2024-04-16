@@ -11,7 +11,7 @@ const HowItWorks = () => {
             HOW IT WORKS
           </span>
         </div>
-        <h2 className="pt-[6px] text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+        <h2 className="pt-[6px] text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
           How Evexia
           <span className="text-green">Transforms Wellness</span>
         </h2>
@@ -30,7 +30,7 @@ const HowItWorks = () => {
               {/* FIRST  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between lg:flex-row flex-col">
                 <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                  <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                  <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 1: Kickstart your journey
                   </p>
                   <div className="pt-4 flex">
@@ -53,10 +53,10 @@ const HowItWorks = () => {
                       Unlocking your genetic secrets
                     </p>
                   </div>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
                     01
                   </p>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan lg:hidden block">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan lg:hidden block">
                     01
                   </p>
                 </div>
@@ -82,7 +82,7 @@ const HowItWorks = () => {
                   />
                 </div>
                 <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                  <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                  <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 2: Unveil your personalized plan
                   </p>
                   <div className="pt-4 flex">
@@ -105,10 +105,10 @@ const HowItWorks = () => {
                       strategies crafted  just for you
                     </p>
                   </div>
-                  <p className="pt-3 text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
+                  <p className="pt-3 text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
                     02
                   </p>
-                  <p className="pt-3 text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan lg:hidden block">
+                  <p className="pt-3 text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan lg:hidden block">
                     02
                   </p>
                 </div>
@@ -116,7 +116,7 @@ const HowItWorks = () => {
               {/* THIRD  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
                 <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                  <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                  <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 3: Live your best life
                   </p>
                   <div className="pt-4 flex">
@@ -139,10 +139,10 @@ const HowItWorks = () => {
                       cutting edge of wellness
                     </p>
                   </div>
-                  <p className="pt-3 text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
+                  <p className="pt-3 text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
                     03
                   </p>
-                  <p className="pt-3 text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan lg:hidden block">
+                  <p className="pt-3 text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan lg:hidden block">
                     03
                   </p>
                 </div>
@@ -168,7 +168,7 @@ const HowItWorks = () => {
                   />
                 </div>
                 <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                  <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                  <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 4: Find your tribe
                   </p>
                   <div className="pt-4 flex">
@@ -181,10 +181,10 @@ const HowItWorks = () => {
                       growing together on this wellness voyage
                     </p>
                   </div>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
                     04
                   </p>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan lg:hidden block">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan lg:hidden block">
                     04
                   </p>
                 </div>
@@ -192,7 +192,7 @@ const HowItWorks = () => {
               {/* FIFTH  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
                 <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
-                  <p className="font-Roboto font-medium md:text-[24px] text-[20px] leading-[116%]">
+                  <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 5: Witness your transformation
                   </p>
                   <div className="pt-4 flex">
@@ -215,10 +215,10 @@ const HowItWorks = () => {
                       leading the way in the wellness revolution
                     </p>
                   </div>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan absolute right-[24px] bottom-[24px] lg:block hidden">
                     05
                   </p>
-                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-[80px] text-[60px] leading-[70%] text-greenishcyan lg:hidden block">
+                  <p className="pt-[3px] text-end font-OpenSans font-bold md:text-10xl text-9xl leading-[70%] text-greenishcyan lg:hidden block">
                     05
                   </p>
                 </div>
