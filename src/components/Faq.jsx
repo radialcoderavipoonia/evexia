@@ -35,7 +35,7 @@ const Faq = () => {
           <div className=" sm:w-6/12">
             {faqList.map((obj, index) => (
               <div key={index}>
-                <div className=" mt-4 md:mt-6 text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
+                <div className=" mt-4 md:mt-6 text-black opacity-80 py-[7px] ps-3  border border-lightBlack rounded-md">
                   {/* Accordion item container */}
                   <div className=" w-full">
                     {/* Accordion button */}

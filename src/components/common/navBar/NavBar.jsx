@@ -34,7 +34,7 @@ const NavBar = () => {
       />
 
       {/* Navigation bar */}
-      <nav className="shadow-[0px_2px_28.8px_0px_#00000014] py-2 ">
+      <nav className="shadow-[0px_2px_28.8px_0px_#00000014] py-[7.5px] ">
         <div className="container xl:max-w-[1140px] mx-auto px-5 xl:px-0">
           <div className="flex justify-between items-center">
             {/* Logo */}

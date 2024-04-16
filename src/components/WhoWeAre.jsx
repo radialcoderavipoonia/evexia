@@ -20,20 +20,21 @@ const WhoWeAre = () => {
         </div>
         <div className="flex flex-wrap justify-center sm:mt-9 mt-6">
           {aboutUs.map((value, index) => (
-            <div key={index} className="md:w-6/12 lg:w-5/12 xl:w-4/12 mt-6">
-              <div className=" w-full max-w-[500px] xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] px-3 xl:px-0 overflow-hidden rounded-[20px]">
-                <div className="relative bg-about-us border border-cornflowerblue xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] rounded-2xl p-6 hover:scale-95 duration-300 transition-all ease-in-out">
-                  <div className="relative z-10 bg-blue w-[64px] h-[64px] flex justify-center items-center border border-lightWhite rounded-[1000px]">
-                    {value.icon}
-                  </div>
-                  <span className="absolute w-full block border border-card-border left-0 top-[12.2%]"></span>
-                  <h3 className="font-OpenSans font-semibold text-xl leading-8 text-black mt-6">
-                    {value.title}
-                  </h3>
-                  <p className="font-OpenSans text-base md:text-sm lg:text-base leading-[120%] text-black opacity-70 mt-3">
-                    {value.deception}
-                  </p>
+            <div
+              key={index}
+              className="md:w-6/12 lg:w-5/12 xl:w-4/12 mt-6 px-3 xl:px-0"
+            >
+              <div className="relative bg-about-us border border-cornflowerblue xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] rounded-2xl p-6 hover:scale-95 duration-300 transition-all ease-in-out">
+                <div className="relative z-10 bg-blue w-[64px] h-[64px] flex justify-center items-center border border-lightWhite rounded-[1000px]">
+                  {value.icon}
                 </div>
+                <span className="absolute w-full block border border-card-border left-0 top-[12.2%]"></span>
+                <h3 className="font-OpenSans font-semibold text-xl leading-8 text-black mt-6">
+                  {value.title}
+                </h3>
+                <p className="font-OpenSans text-base md:text-sm lg:text-base leading-[120%] text-black opacity-70 mt-3">
+                  {value.deception}
+                </p>
               </div>
             </div>
           ))}
