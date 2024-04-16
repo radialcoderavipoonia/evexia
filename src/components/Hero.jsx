@@ -15,14 +15,14 @@ const Hero = () => {
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">
-              <span className="inline-block text-center uppercase bg-mintcream text-green border-[1px] border-green px-6 py-[8px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
+              <span className="inline-block text-center uppercase bg-mintcream text-green border-[1px] border-green px-[23.5px] py-[9px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
                 AI-POWERED GENOMICS
               </span>
-              <h1 className=" max-w-[559px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
+              <h1 className=" max-w-[559px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl xl:leading-[69px] mt-3">
                 Unlock Your Health’s Full Potential With{" "}
                 <span className=" text-green"> AI-Driven Genomics</span>
               </h1>
-              <p className=" font-OpenSans font-normal text-sm sm:text-base text-black opacity-70 max-w-[522px]">
+              <p className="mt-5 font-OpenSans font-normal text-sm sm:text-base text-black opacity-70 max-w-[522px]">
                 Transform your life with your dna blueprint. Evexia turns the
                 key to peak wellness, tailoring your health and fitness with
                 precision only your genes can provide.
@@ -32,7 +32,7 @@ const Hero = () => {
                 <CommonBtnWhite title="Learn More" />
               </div>
             </div>
-            <div className="lg:w-6/12 xl:absolute right-[-8%] top-[-10%]">
+            <div className="lg:w-6/12 xl:absolute right-[-3%] top-[-10%]">
               <Image
                 className=" max-w-[300px] sm:max-w-[387px] mx-auto xl:max-w-[587px] xl:min-h-[628px]"
                 sizes="100vw"

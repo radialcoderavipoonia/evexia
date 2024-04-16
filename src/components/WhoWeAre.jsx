@@ -8,7 +8,7 @@ const WhoWeAre = () => {
         <span className="text-center lg:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           HOW IT WORKS
         </span>
-        <h2 className="pt-2 text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+        <h2 className="pt-2 text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
           Who
           <span className="text-green">We Are</span>
         </h2>
@@ -22,7 +22,7 @@ const WhoWeAre = () => {
                   {value.icon}
                 </div>
                 <span className="absolute w-full block border border-card-border left-0 top-[12.2%]"></span>
-                <h3 className="font-OpenSans font-semibold text-[20px] leading-8 text-black mt-6">
+                <h3 className="font-OpenSans font-semibold text-xl leading-8 text-black mt-6">
                   {value.title}
                 </h3>
                 <p className="font-OpenSans text-base md:text-sm lg:text-base text-black opacity-70">

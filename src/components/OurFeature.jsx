@@ -33,7 +33,7 @@ const OurFeature = () => {
               OUR FEATURES
             </span>
           </div>
-          <h2 className="pt-2 text-center md:text-[48px] sm:text-[40px] text-[32px] font-bold font-Roboto leading-[115%] text-black">
+          <h2 className="pt-2 text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
             Evexia Features: Revolutionize
             <span className="text-green">Your Wellness</span>
           </h2>
@@ -62,7 +62,7 @@ const OurFeature = () => {
           </div>
           <div className="pt-10 flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between items-center pb-32">
             <div className="lg:w-3/5">
-              <p className="font-Roboto font-bold md:text-[48px] sm:text-[40px] text-[32px] leading-[155%] text-black">
+              <p className="font-Roboto font-bold md:text-7xl sm:text-5xl text-3xl leading-[155%] text-black">
                 {tabContent[activeTab].title}
               </p>
               <div className="pt-4 flex gap-7">

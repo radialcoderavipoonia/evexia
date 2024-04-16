@@ -16,7 +16,7 @@ const PricingHero = () => {
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">
-              <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
+              <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl xl:leading-[69px] mt-3">
                 Welcome To The Future Of Personalized Wellness:{" "}
                 <span className=" text-green">
                   Evexias <br /> Pre-Launch Invitation

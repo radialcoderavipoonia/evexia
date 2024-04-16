@@ -11,7 +11,7 @@ const Testimonial = () => {
             TESTIMONIAL
           </span>
         </div>
-        <p className="pt-2 text-center text-white font-NotoSans font-bold md:text-[48px] sm:text-[40px] text-[32px] leading-[115%] ssm:px-0 px-2">
+        <p className="pt-2 text-center text-white font-NotoSans font-bold md:text-7xl sm:text-5xl text-3xl leading-[115%] ssm:px-0 px-2">
           Our Happy Customers
         </p>
         <div className="relative max-w-[482px] mx-auto sm:px-0 px-3">
