@@ -10,9 +10,9 @@ const OurBenefits = () => {
     setActiveTab(index);
   };
   return (
-    <div className="xl:max-w-[1140px] xl:px-0 px-3 container lg:py-[120px] sm:py-24 py-20 mx-auto">
+    <div className="xl:max-w-[1140px] xl:px-0 px-3 container lg:pb-[106px] lg:pt-[120px] sm:py-24 py-20 mx-auto">
       <div className="flex justify-center">
-        <span className="text-center bg-mintcream text-green border-[1px] border-green px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+        <span className="text-center bg-mintcream text-green border-[1px] border-green px-[29.2px] py-[9.2px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
           OUR BENEFITS
         </span>
       </div>
@@ -20,8 +20,8 @@ const OurBenefits = () => {
         Evexia Benefits: Tailored{" "}
         <span className="text-green">Wellness Unlocked</span>
       </h2>
-      <div className="sm:pt-[60px] pt-12 flex md:flex-row flex-col gap-6 justify-between items-center">
-        <div className="md:w-1/2 sm:w-[90%] w-full me-2">
+      <div className="sm:pt-[60px] pt-12 flex md:flex-row flex-col gap-6 justify-between items-start">
+        <div className="md:w-1/2 sm:w-[90%] w-full">
           {benefits.map((tab, index) => (
             <div
               key={index}
@@ -47,11 +47,11 @@ const OurBenefits = () => {
             </div>
           ))}
         </div>
-        <div className="md:w-1/2 sm:w-[90%] w-full ">
+        <div className="md:w-1/2 sm:w-[90%] w-full h-full">
           {benefits.map((tab, index) => (
             <div
               key={index}
-              className={`rounded-lg bg-mintcream sm:p-6 p-4  ${
+              className={`rounded-lg bg-mintcream sm:p-6 p-4 h-full ${
                 index === activeTab ? "" : "hidden"
               }`}
             >

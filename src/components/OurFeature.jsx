@@ -29,7 +29,7 @@ const OurFeature = () => {
       <div className="relative">
         <div className="xl:max-w-[1140px] xl:px-0 px-3 mx-auto container ">
           <div className="flex justify-center">
-            <span className="text-center bg-mintcream text-green border-[1px] border-green px-[30px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+            <span className="text-center bg-mintcream text-green border-[1px] border-green px-[23.3px] py-[9.2px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
               OUR FEATURES
             </span>
           </div>

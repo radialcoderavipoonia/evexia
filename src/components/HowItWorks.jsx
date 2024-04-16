@@ -7,7 +7,7 @@ const HowItWorks = () => {
     <div className="relative">
       <div className="lg:pt-[120px] sm:pt-24 pt-20 xl:max-w-[1140px] xl:px-0 px-3 container mx-auto relative z-30">
         <div className="flex justify-center">
-          <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          <span className="text-center md:mt-4 bg-mintcream text-green border-[1px] border-green px-[23.25px] py-[9.2px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             HOW IT WORKS
           </span>
         </div>
@@ -29,7 +29,7 @@ const HowItWorks = () => {
             <div className="sm:w-[80%] lg:w-full sm:max-w-[unset] max-w-[350px] mx-auto">
               {/* FIRST  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 1: Kickstart your journey
                   </p>
@@ -60,9 +60,9 @@ const HowItWorks = () => {
                     01
                   </p>
                 </div>
-                <div>
+                <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/kickstart.png"
@@ -72,16 +72,16 @@ const HowItWorks = () => {
               </div>
               {/* SECOND  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col-reverse">
-                <div>
+                <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/personalized_plan.png"
                     alt="personalized plan image"
                   />
                 </div>
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 2: Unveil your personalized plan
                   </p>
@@ -115,7 +115,7 @@ const HowItWorks = () => {
               </div>
               {/* THIRD  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 3: Live your best life
                   </p>
@@ -146,9 +146,9 @@ const HowItWorks = () => {
                     03
                   </p>
                 </div>
-                <div>
+                <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/live_your_best.png"
@@ -158,16 +158,16 @@ const HowItWorks = () => {
               </div>
               {/* FORTH  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col-reverse">
-                <div>
+                <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/find_your_tribe.png"
                     alt="find your tribe image"
                   />
                 </div>
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 4: Find your tribe
                   </p>
@@ -191,7 +191,7 @@ const HowItWorks = () => {
               </div>
               {/* FIFTH  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 5: Witness your transformation
                   </p>
@@ -222,9 +222,9 @@ const HowItWorks = () => {
                     05
                   </p>
                 </div>
-                <div>
+                <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/witness.png"
@@ -246,18 +246,19 @@ const HowItWorks = () => {
         </div>
       </div>
       <Image
-        className="absolute left-[10%] top-[600px] lg:block hidden"
+        className="absolute left-[7.5%] w-[86px] h-[185px] top-[555px] lg:block hidden"
         width={86}
-        height={255}
+        height={185}
         src="/assets/images/home-page/how-it-works/left_side_lines.png"
         alt="left side lines image"
       />
-      <span className="absolute left-[7%] top-[650px] lg:block hidden">
+      <span className="absolute left-[4%] top-[670px] lg:block hidden">
         <GreenCircle />
       </span>
-      <span className="absolute right-[9%] bottom-[280px] lg:block hidden">
+      <span className="absolute right-[7%] bottom-[280px] lg:block hidden">
         <Polygon />
       </span>
+      <div className="w-[160px] h-[160px] circle_effect_bg rounded-[100%] blur-3xl absolute top-[570px] right-[-80px] md:block hidden"></div>
     </div>
   );
 };
