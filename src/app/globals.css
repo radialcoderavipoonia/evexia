@@ -4,9 +4,7 @@
 @tailwind utilities;
 
 
-body, html{
-  overflow-x: hidden !important;
-}
+
 @layer components {
   /* Styles for mobile navigation links */
   .mobile-nav-li {
@@ -57,4 +55,11 @@ fill: #004A6D;
 .circle_effect_bg{
   background: rgba(135, 209, 242, 1);
 
+}
+::placeholder{
+  color: #4D4D4D !important;
+  font-family: Open Sans;
+font-size: 14px;
+font-weight: 600;
+line-height: 19.07px;
 }

@@ -7,12 +7,12 @@ import React from "react";
 
 const page = () => {
   return (
-    <div> 
+    <div className="overflow-hidden">
       <PricingHero />
       <ChooseYourPlan />
       <WhyUs />
       <WellnessPersonal />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

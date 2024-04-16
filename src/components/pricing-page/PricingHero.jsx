@@ -11,12 +11,12 @@ const PricingHero = () => {
       <div className=" relative z-50">
         <NavBar />
       </div>
-      <div className=" bg-hero bg-no-repeat bg-cover bg-center overflow-hidden">
+      <div className=" bg-hero bg-no-repeat bg-cover bg-center ">
         <div className=" container xl:max-w-[1140px] mx-auto px-3 xl:px-0 relative py-14 md:py-16 lg:pt-[83px] lg:pb-[183px]">
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">
-              <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl xl:leading-[69px] mt-3">
+              <h1 className=" capitalize max-w-[598px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl leading-[120%] mt-3">
                 Welcome To The Future Of Personalized Wellness:{" "}
                 <span className=" text-green">
                   Evexias <br /> Pre-Launch Invitation
@@ -33,7 +33,7 @@ const PricingHero = () => {
                 be among the first to experience the power of living in harmony
                 with your dna.
               </p>
-              <div className=" mt-[40px] flex border border-blue rounded-md max-w-[568px] justify-between">
+              <div className="mt-6 flex border border-blue rounded-md max-w-[568px] justify-between">
                 <CommonInput
                   type="email"
                   placeholder="Enter Your Email address"

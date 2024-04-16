@@ -12,9 +12,9 @@ const WhyUs = () => {
           WHY US?
         </span>
       </div>
-      <h2 className="pt-[6px] text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
+      <h2 className="pt-2 text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
         Why join
-        <span className="text-green">our pre-launch?</span>
+        <span className="text-green"> our pre-launch?</span>
       </h2>
       <p className="pt-4 text-center max-w-[792px] mx-auto font-OpenSans font-normal text-base leading-[150%] text-liver">
         By signing up today, you’ll gain early access to our revolutionary
@@ -22,7 +22,7 @@ const WhyUs = () => {
         This is your chance to be at the forefront of personalized health, with
         tools and insights tailored specifically to you
       </p>
-      <div className="mt-4 flex sm:flex-row flex-col justify-between mx-auto max-w-[494px] w-full border border-blue rounded-md">
+      <div className="mt-4 flex gap-3  justify-between mx-auto max-w-[494px] w-full border border-blue rounded-md">
         <CommonInput type="email" placeholder="Get Rewarded for Referrals" />
         <CommonBtn title="Refer Now" />
       </div>
@@ -120,7 +120,7 @@ const WhyUs = () => {
         </div>
         <div className="absolute top-[60px] left-[50%] translate-x-[-50%] lg:block hidden">
           <Image
-            className="h-[600px]"
+            className="h-[710px]"
             width={72}
             height={1700}
             src="/assets/images/pricing-page/why-us/roadmap_dot.png"
