@@ -15,7 +15,7 @@ const HowItWorks = () => {
           How Evexia
           <span className="text-green">Transforms Wellness</span>
         </h2>
-        <div className="lg:pt-[90px] sm:pt-[60px] pt-12  relative">
+        <div className="lg:pt-[90px] sm:pt-[60px] pt-12  relative z-30">
           <div className="flex justify-between">
             <div className=" lg:hidden sm:block hidden w-[20%]">
               <Image
@@ -29,7 +29,7 @@ const HowItWorks = () => {
             <div className="sm:w-[80%] lg:w-full sm:max-w-[unset] max-w-[350px] mx-auto">
               {/* FIRST  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px] bg-white">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 1: Kickstart your journey
                   </p>
@@ -81,7 +81,7 @@ const HowItWorks = () => {
                     alt="personalized plan image"
                   />
                 </div>
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px] bg-white">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 2: Unveil your personalized plan
                   </p>
@@ -115,7 +115,7 @@ const HowItWorks = () => {
               </div>
               {/* THIRD  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px] bg-white">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 3: Live your best life
                   </p>
@@ -167,7 +167,7 @@ const HowItWorks = () => {
                     alt="find your tribe image"
                   />
                 </div>
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px] bg-white">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 4: Find your tribe
                   </p>
@@ -191,7 +191,7 @@ const HowItWorks = () => {
               </div>
               {/* FIFTH  */}
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col">
-                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px]">
+                <div className="border-[1px] xl:h-[289px] lg:h-[320px] border-mercury sm:p-6 p-4 rounded-2xl relative xl:w-[498px] bg-white">
                   <p className="font-Roboto font-medium md:text-2xl text-xl leading-[116%]">
                     Step 5: Witness your transformation
                   </p>
