@@ -39,8 +39,9 @@ const NavBar = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="mt-0 relative z-[500]">
-              <Link href="#" className="w-full max-w-[150px] md:max-w-[210px]">
+              <Link href="#" className="w-full max-w-[100px] md:max-w-[210px]">
                 <Image
+                  className=" w-full max-w-[50px] md:max-w-[79px]"
                   width={79}
                   height={85}
                   src="/assets/common/main-logo.svg"

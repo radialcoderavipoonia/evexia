@@ -32,7 +32,7 @@ const Faq = () => {
           </h2>
         </div>
         <div className=" flex flex-wrap justify-between mt-5 md:mt-[36px]">
-          <div className=" w-6/12 px-3">
+          <div className=" sm:w-6/12 px-3">
             {faqList.map((obj, index) => (
               <div key={index}>
                 <div className=" mt-4 md:mt-6 text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
@@ -86,7 +86,7 @@ const Faq = () => {
               </div>
             ))}
           </div>
-          <div className=" w-6/12 px-3">
+          <div className=" sm:w-6/12 px-3">
             {faqListto.map((obj, index) => (
               <div key={index}>
                 <div className=" mt-4 md:mt-6   text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">

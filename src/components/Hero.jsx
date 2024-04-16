@@ -18,7 +18,7 @@ const Hero = () => {
               <span className="inline-block text-center uppercase bg-mintcream text-green border-[1px] border-green px-[23.5px] py-[9px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
                 AI-POWERED GENOMICS
               </span>
-              <h1 className=" max-w-[559px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl xl:leading-[69px] mt-3">
+              <h1 className=" max-w-[559px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-8xl leading-[120%] mt-3">
                 Unlock Your Health’s Full Potential With{" "}
                 <span className=" text-green"> AI-Driven Genomics</span>
               </h1>
@@ -27,7 +27,7 @@ const Hero = () => {
                 key to peak wellness, tailoring your health and fitness with
                 precision only your genes can provide.
               </p>
-              <div className=" mt-[40px] flex gap-6">
+              <div className=" mt-[40px] flex flex-col sm:flex-row gap-4 sm:gap-6 max-w-[200px] sm:max-w-[unset]">
                 <CommonBtn title="Explore Your DNA" />
                 <CommonBtnWhite title="Learn More" />
               </div>

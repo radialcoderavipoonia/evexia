@@ -13,7 +13,7 @@ import Footer from "@/components/common/Footer";
 
 const page = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <Hero />
       <RevealYourUltimate />
       <HowItWorks />
@@ -26,7 +26,7 @@ const page = () => {
       <PricingPlan />
       <Faq />
       <Footer />
-    </>
+    </div>
   );
 };
 
