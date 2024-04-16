@@ -62,7 +62,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/kickstart.png"
@@ -74,7 +74,7 @@ const HowItWorks = () => {
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col-reverse">
                 <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/personalized_plan.png"
@@ -148,7 +148,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/live_your_best.png"
@@ -160,7 +160,7 @@ const HowItWorks = () => {
               <div className="flex lg:gap-[144px] sm:gap-10 gap-8 justify-between md:pt-[84px] sm:pt-[60px] pt-14 lg:flex-row flex-col-reverse">
                 <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/find_your_tribe.png"
@@ -224,7 +224,7 @@ const HowItWorks = () => {
                 </div>
                 <div className="xl:w-[498px]">
                   <Image
-                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl"
+                    className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
                     src="/assets/images/home-page/how-it-works/witness.png"
