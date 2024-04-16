@@ -33,7 +33,7 @@ const WhyUs = () => {
               className="h-[1400px]"
               width={100}
               height={1700}
-              src="/assets/images/why-us/roadmap_dot.png"
+              src="/assets/images/pricing-page/why-us/roadmap_dot.png"
               alt="witness image"
             />
           </div>
@@ -80,7 +80,7 @@ const WhyUs = () => {
                   className="xl:h-[323px] lg:h-[320px] lg:w-[498px] w-full"
                   width={498}
                   height={323}
-                  src="/assets/images/why-us/exclusive_benefits.png"
+                  src="/assets/images/pricing-page/why-us/exclusive_benefits.png"
                   alt="exclusive benefits image"
                 />
               </div>
@@ -123,7 +123,7 @@ const WhyUs = () => {
             className="h-[600px]"
             width={72}
             height={1700}
-            src="/assets/images/why-us/roadmap_dot.png"
+            src="/assets/images/pricing-page/why-us/roadmap_dot.png"
             alt="witness image"
           />
         </div>

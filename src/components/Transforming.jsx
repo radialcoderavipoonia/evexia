@@ -9,7 +9,7 @@ const Transforming = () => {
         decoration="Don’t put off what could be your brightest future. Your unique DNA holds the blueprint for ultimate health and happiness"
         btnTitle="Start Transforming"
         bar="button"
-        imgSrc="/assets/images/transforming/unlock.png"
+        imgSrc="/assets/images/home-page/transforming/unlock.png"
         shortDecoration="Act fast! Exclusive slots for our personalized DNA analysis are filling up. Claim yours and step into a life where wellness is woven into your genes"
       />
     </div>

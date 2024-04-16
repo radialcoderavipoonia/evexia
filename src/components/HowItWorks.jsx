@@ -65,7 +65,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
                     width={498}
                     height={289}
-                    src="/assets/images/how-it-works/kickstart.png"
+                    src="/assets/images/home-page/how-it-works/kickstart.png"
                     alt="kickstart image"
                   />
                 </div>
@@ -151,7 +151,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
                     width={498}
                     height={289}
-                    src="/assets/images/how-it-works/live_your_best.png"
+                    src="/assets/images/home-page/how-it-works/live_your_best.png"
                     alt="live your best life image"
                   />
                 </div>
@@ -227,7 +227,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full"
                     width={498}
                     height={289}
-                    src="/assets/images/how-it-works/witness.png"
+                    src="/assets/images/home-page/how-it-works/witness.png"
                     alt="witness image"
                   />
                 </div>
