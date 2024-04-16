@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { GreenRightIcon } from "./common/Icons";
+import { GreenCircle, GreenRightIcon } from "./common/Icons";
 
 const OurFeature = () => {
   const [activeTab, setActiveTab] = useState(3);
@@ -60,7 +60,7 @@ const OurFeature = () => {
               </div>
             ))}
           </div>
-          <div className="pt-10 flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between items-center pb-32">
+          <div className="pt-10 flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between items-center pb-32 lg:mb-7">
             <div className="lg:w-3/5">
               <p className="font-Roboto font-bold md:text-7xl sm:text-5xl text-3xl leading-[155%] text-black">
                 {tabContent[activeTab].title}
@@ -129,12 +129,15 @@ const OurFeature = () => {
           alt="left side lines image"
         />
         <Image
-          className="absolute left-[6.5%] w-[79px] h-[169px] top-[95px] lg:block hidden rotate-[17.17deg]"
-          width={79}
-          height={169}
+          className="absolute left-[50.5%] w-[41px] h-[89px] top-[595px] lg:block hidden rotate-[7.17deg]"
+          width={41}
+          height={89}
           src="/assets/images/home-page/how-it-works/left_side_lines.png"
           alt="left side lines image"
         />
+        <span className="absolute left-[6%] top-[790px] lg:block hidden">
+          <GreenCircle />
+        </span>
       </div>
     </>
   );
