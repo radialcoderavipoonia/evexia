@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="lg:w-8/12 xl:w-6/12 pt-6 sm:pt-10 lg:pt-0">
               <div className="grid sm:grid-cols-3 gap-6 sm:gap-3 xl:gap-6">
                 <div>
-                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                  <p className="font-OpenSans font-semibold text-xl text-white !leading-[32px]">
                     Quick Links
                   </p>
                   <ul className="flex flex-col gap-[9px] mt-4">
@@ -62,7 +62,7 @@ const Footer = () => {
                       return (
                         <li key={index}>
                           <Link
-                            className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
+                            className="font-OpenSans text-base !leading-[25px] text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
                             href={value.link}
                           >
                             {value.title}
@@ -73,13 +73,13 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div>
-                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                  <p className="font-OpenSans font-semibold text-xl text-white !leading-[32px]">
                     Contact us
                   </p>
                   <div className=" flex flex-col gap-[9px] mt-4">
                     <Link
                       target="_blank"
-                      className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
+                      className="font-OpenSans text-base !leading-[25px] text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
                       href="evexia@gmail.com"
                     >
                       evexia@gmail.com
@@ -87,7 +87,7 @@ const Footer = () => {
 
                     <Link
                       target="_blank"
-                      className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out block"
+                      className="font-OpenSans text-base !leading-[25px] text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out block"
                       href="tel:+8802222274550"
                     >
                       +91 12345 6789 0
@@ -95,7 +95,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="font-OpenSans font-semibold text-xl text-white ">
+                  <p className="font-OpenSans font-semibold text-xl !leading-[32px] text-white ">
                     Legal
                   </p>
                   <ul className="flex flex-col gap-[9px] mt-4">
@@ -103,7 +103,7 @@ const Footer = () => {
                       return (
                         <li key={index}>
                           <Link
-                            className="font-OpenSans text-base text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
+                            className="font-OpenSans text-base !leading-[25px] text-white opacity-70 hover:opacity-100 transition-all duration-200 ease-in-out"
                             href={value.link}
                           >
                             {value.title}
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t footer-b">
-          <p className="font-OpenSans text-base text-white opacity-70 text-center pt-4 pb-[26px]">
+          <p className="font-OpenSans text-base !leading-[25px] text-white opacity-70 text-center pt-4 pb-[26px]">
             @ {year} Copyright EVEXIA, All Rights Reserved
           </p>
         </div>
