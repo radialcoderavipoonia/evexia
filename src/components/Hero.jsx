@@ -15,10 +15,10 @@ const Hero = () => {
           <span className="xl:block border-b hero-border-b w-full absolute bottom-0 hidden "></span>
           <div className=" flex flex-col-reverse lg:flex-row flex-wrap relative">
             <div className="lg:w-6/12 xl:w-7/12">
-              <span className="inline-block text-center uppercase bg-mintcream text-green border-[1px] border-green px-6 py-[10px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
+              <span className="inline-block text-center uppercase bg-mintcream text-green border-[1px] border-green px-6 py-[8px] text-base font-semibold font-OpenSans leading-[24px] rounded-[51px]">
                 AI-POWERED GENOMICS
               </span>
-              <h1 className=" max-w-[595px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
+              <h1 className=" max-w-[559px] font-Roboto font-bold text-black text-4xl md:text-5xl xl:text-[58px] xl:leading-[69px] mt-3">
                 Unlock Your Health’s Full Potential With{" "}
                 <span className=" text-green"> AI-Driven Genomics</span>
               </h1>
