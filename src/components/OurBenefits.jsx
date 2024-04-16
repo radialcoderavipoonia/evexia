@@ -67,9 +67,7 @@ const OurBenefits = () => {
                   {index + 1}. {tab.title}
                 </p>
                 <p className="pt-[10px] max-w-[498px] font-OpenSans font-normal text-base leading-[150%] text-blackcow">
-                  Blueprint for thriving: say goodbye to guesswork. Evexia
-                  crafts your wellness plan with the precision of your own
-                  genetics. Unique, like you
+                 {tab.description}
                 </p>
               </div>
             </div>
