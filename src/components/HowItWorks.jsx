@@ -258,7 +258,7 @@ const HowItWorks = () => {
       <span className="absolute right-[7%] bottom-[280px] lg:block hidden">
         <Polygon />
       </span>
-      <div className="w-[160px] h-[160px] circle_effect_bg rounded-[100%] blur-3xl absolute top-[570px] right-[-80px] md:block hidden"></div>
+      <div className="w-[180px] h-[180px] circle_effect_bg rounded-[100%] blur-3xl absolute top-[570px] right-[-80px] md:block hidden"></div>
     </div>
   );
 };

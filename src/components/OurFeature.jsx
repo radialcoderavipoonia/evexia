@@ -115,7 +115,7 @@ const OurFeature = () => {
           </div>
         </div>
         <Image
-          className="absolute lg:bottom-[114px] bottom-[27px] right-0 xl:w-[660px] sm:w-[550px] w-[400px] sm:h-[600px] h-[500px] xl:h-[618px]"
+          className="absolute lg:bottom-[54px] xl:bottom-[144px] sm:bottom-[27px] bottom-[83px] right-0 xl:w-[660px] sm:w-[550px] w-[400px] sm:h-[600px] h-[500px] xl:h-[618px]"
           width={660}
           height={618}
           src="/assets/images/home-page/our-features/iphone_bg.webp"

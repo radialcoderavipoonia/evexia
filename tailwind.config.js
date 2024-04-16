@@ -61,6 +61,7 @@ module.exports = {
         nebula: "#BCE0D7",
         jetstream: "#B9D5D0",
         cyan: "#B7D6D5",
+        blackcow: "#474B4A",
       },
     },
   },
