@@ -29,8 +29,8 @@ const ChooseYourPlan = () => {
                   {value.plan}
                 </p>
                 <p className="mt-4 font-OpenSans text-6xl font-semibold leading-8 text-white group-hover:text-blue transition-all duration-200 ease-in-out">
-                  {value.title}{" "}
-                  <span className=" font-OpenSans text-base  group-hover:text-black transition-all duration-200 ease-in-out ">
+                  {value.title}
+                  <span className=" font-OpenSans text-base  group-hover:text-black  ">
                     {value.month}
                   </span>
                 </p>

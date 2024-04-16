@@ -6,12 +6,16 @@ import {
   footerSolutionList,
   socialIconList,
 } from "./Helper";
+import { FooterTopBorder, WhoYou } from "./Icons";
 
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <>
-      <div className=" bg-black">
+      <div className=" bg-black relative">
+        <div className=" absolute bottom-4 left-[6%] hidden lg:block">
+          <WhoYou />
+        </div>
         <div className="xl:max-w-[1140px] container px-3 xl:px-0 mx-auto pt-10 pb-[50px]">
           <div className="flex flex-col lg:flex-row lg:gap-6 lg:justify-between justify-center ">
             <div className="lg:w-4/12 xl:w-5/12">
@@ -117,7 +121,14 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t footer-b">
+        <div className="relative border-t border-white sm:border-none">
+          <Image
+            className="absolute w-full top-0"
+            width={185}
+            height={20}
+            src="/assets/common/footer-top-border.svg"
+            alt="footer-top-border"
+          />
           <p className="font-OpenSans text-base !leading-[25px] text-white opacity-70 text-center pt-4 pb-[26px]">
             @ {year} Copyright EVEXIA, All Rights Reserved
           </p>
