@@ -121,11 +121,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="relative border-t border-white sm:border-none">
+        <div>
           <Image
-            className="absolute w-full top-0"
-            width={185}
-            height={20}
+            className="w-full h-[1px]"
+            width={1920}
+            height={1}
             src="/assets/common/footer-top-border.svg"
             alt="footer-top-border"
           />
