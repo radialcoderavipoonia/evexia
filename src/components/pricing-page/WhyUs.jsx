@@ -33,7 +33,7 @@ const WhyUs = () => {
               className="h-[1400px]"
               width={100}
               height={1700}
-              src="/assets/images/pricing-page/why-us/roadmap_dot.png"
+              src="/assets/images/pricing-page/why-us/roadmap_dot.webp"
               alt="witness image"
             />
           </div>

@@ -17,14 +17,14 @@ const Transforming = () => {
         className="absolute left-[6.5%] w-[43px] h-[92px] top-[225px] lg:block hidden rotate-[7.17deg]"
         width={43}
         height={92}
-        src="/assets/images/home-page/how-it-works/left_side_lines.png"
+        src="/assets/images/home-page/how-it-works/left_side_lines.webp"
         alt="left side lines image"
       />
       <Image
         className="absolute right-[20.5%] w-[44px] h-[96px] bottom-[-145px] lg:block hidden "
         width={44}
         height={96}
-        src="/assets/images/home-page/how-it-works/left_side_lines.png"
+        src="/assets/images/home-page/how-it-works/left_side_lines.webp"
         alt="left side lines image"
       />
     </div>
