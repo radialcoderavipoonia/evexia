@@ -243,6 +243,24 @@ export const Polygon = () => {
     </svg>
   );
 };
+export const LightPolygon = () => {
+  return (
+    <svg
+      width="23"
+      height="23"
+      viewBox="0 0 23 23"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        opacity="0.3"
+        d="M11.9199 2.18241C14.8995 -0.264094 19.4105 1.41705 20.0621 5.21683L21.876 15.7926C22.5311 19.6121 18.7992 22.7045 15.1679 21.3512L5.0612 17.5847C1.42991 16.2314 0.632067 11.4509 3.62707 8.99169L11.9199 2.18241Z"
+        stroke="#DFDAFF"
+        stroke-width="2"
+      />
+    </svg>
+  );
+};
 export const LeftArrow = () => {
   return (
     <svg

@@ -1,6 +1,9 @@
-import React from "react";
-import { DoubleComma, GreenCircle } from "./common/Icons";
 import Image from "next/image";
+import {
+  DoubleComma,
+  GreenCircle,
+  LightPolygon
+} from "./common/Icons";
 
 const Testimonial = () => {
   return (
@@ -103,6 +106,9 @@ const Testimonial = () => {
       </div>
       <span className="absolute right-[47px] top-[100px] lg:block hidden">
         <GreenCircle />
+      </span>
+      <span className="absolute right-[70px] bottom-[10px] lg:block hidden ">
+        <LightPolygon />
       </span>
     </div>
   );
