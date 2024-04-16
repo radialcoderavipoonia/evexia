@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { faqList, faqListto } from "./common/Helper";
+import { Faqs } from "./common/Icons";
 
 const Faq = () => {
   const [expandedIndex, setExpandedIndex] = useState(-1);
@@ -17,7 +18,10 @@ const Faq = () => {
 
   return (
     <>
-      <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20  lg:pb-[120px]">
+      <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20 relative lg:pb-[120px]">
+        <div className="absolute right-[-9%] top-[18%] hidden lg:block">
+          <Faqs />
+        </div>
         <div className="flex justify-center flex-col items-center">
           <span className="text-center  bg-mintcream text-green border-[1px] border-green px-[23.5px] py-[9px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             FREQUENTLY ASKED QUESTION
