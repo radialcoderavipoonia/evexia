@@ -9,7 +9,7 @@ const CommonSection = (props) => {
         <div className="p-5 sm:p-8 lg:px-[60px] lg:py-[61px]">
           <div className="flex flex-col-reverse md:flex-row justify-center md:justify-between ">
             <div className=" mt-5 md:mt-0 text-center md:text-start md:me-4">
-              <h2 className=" font-Roboto text-3xl sm:text-4xl font-semibold text-white">
+              <h2 className=" font-Roboto text-3xl sm:text-4xl leading-[120%] font-semibold text-white">
                 {props.title}
               </h2>
               <p className="font-OpenSans text-sm sm:text-base text-white opacity-70 mt-2 sm:mt-4 max-w-[452px] mx-auto md:mx-0">
@@ -49,7 +49,7 @@ const CommonSection = (props) => {
             </div>
             <div>
               <Image
-                className=" w-full max-w-[400px] mx-auto lg:max-w-[309px]"
+                className=" w-full max-w-[400px] mx-auto lg:max-w-[344px]"
                 sizes="100vw"
                 width={309}
                 height={262}

@@ -19,7 +19,7 @@ const Faq = () => {
     <>
       <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20  lg:pb-[120px]">
         <div className="flex justify-center flex-col items-center">
-          <span className="text-center lg:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          <span className="text-center  bg-mintcream text-green border-[1px] border-green px-[23.5px] py-[9px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
             FREQUENTLY ASKED QUESTION
           </span>
           <h2 className="pt-2 text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
@@ -31,7 +31,7 @@ const Faq = () => {
           <div className=" w-6/12 px-3">
             {faqList.map((obj, index) => (
               <div key={index}>
-                <div className=" mt-4 md:mt-6   text-black opacity-80 py-2 ps-3 pr-[18px] border border-lightBlack rounded-md">
+                <div className=" mt-4 md:mt-6 text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
                   {/* Accordion item container */}
                   <div className=" w-full">
                     {/* Accordion button */}
@@ -50,10 +50,10 @@ const Faq = () => {
 
                       <span
                         className={`max-w-8 md:max-w-11 w-full h-8 md:h-11 ms-2 rounded-full  relative before:absolute before:z-20 after:absolute before:bg-gray after:bg-gray before:top-1/2 before:-translate-x-1/2 before:start-1/2 before:-translate-y-1/2
-                                        before:w-[14px] before:h-0.5 before:rounded-2xl before:bg-black after:w-0.5 after:h-[14px] after:rounded-2xl after:-translate-x-1/2 after:top-1/2 after:start-1/2 after:-translate-y-1/2
+                                        before:w-[14px] before:h-0.5 before:rounded-2xl before:bg-black after:bg-black  after:w-0.5 after:h-[14px] after:rounded-2xl after:-translate-x-1/2 after:top-1/2 after:start-1/2 after:-translate-y-1/2
                                         duration-300 ${
                                           expandedIndex === index
-                                            ? " before:bg-black after:bg-black before:z-20 rotate-180"
+                                            ? " before:bg-black after:bg-transparent before:z-20 rotate-180"
                                             : ""
                                         }
                                         `}
@@ -85,7 +85,7 @@ const Faq = () => {
           <div className=" w-6/12 px-3">
             {faqListto.map((obj, index) => (
               <div key={index}>
-                <div className=" mt-4 md:mt-6   text-black opacity-80 py-2 ps-3 pr-[18px] border border-lightBlack rounded-md">
+                <div className=" mt-4 md:mt-6   text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
                   {/* Accordion item container */}
                   <div className=" w-full">
                     {/* Accordion button */}
@@ -104,10 +104,10 @@ const Faq = () => {
 
                       <span
                         className={`max-w-8 md:max-w-11 w-full h-8 md:h-11 ms-2 rounded-full  relative before:absolute before:z-20 after:absolute before:bg-gray after:bg-gray before:top-1/2 before:-translate-x-1/2 before:start-1/2 before:-translate-y-1/2
-                                        before:w-[14px] before:h-0.5 before:rounded-2xl before:bg-black after:w-0.5 after:h-[14px] after:rounded-2xl after:-translate-x-1/2 after:top-1/2 after:start-1/2 after:-translate-y-1/2
+                                        before:w-[14px] before:h-0.5 before:rounded-2xl before:bg-black after:bg-black after:w-0.5 after:h-[14px] after:rounded-2xl after:-translate-x-1/2 after:top-1/2 after:start-1/2 after:-translate-y-1/2
                                         duration-300 ${
                                           expandedIndexTo === index
-                                            ? " before:bg-black after:bg-black before:z-20 rotate-180"
+                                            ? " before:bg-black  after:bg-transparent before:z-20 rotate-180"
                                             : ""
                                         }
                                         `}

@@ -5,8 +5,8 @@ const WhoWeAre = () => {
   return (
     <div className="xl:max-w-[1140px] xl:px-0 px-3 container mx-auto py-14 sm:py-16 md:py-20  lg:py-[120px]">
       <div className="flex justify-center flex-col items-center">
-        <span className="text-center lg:mt-4 bg-mintcream text-green border-[1px] border-green px-6 py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
-          HOW IT WORKS
+        <span className="text-center bg-mintcream text-green border-[1px] border-green px-[23.5px] py-[10px] sm:text-base text-sm font-semibold font-OpenSans leading-[150%] rounded-[51px]">
+          ABOUT US
         </span>
         <h2 className="pt-2 text-center md:text-7xl sm:text-5xl text-3xl font-bold font-Roboto leading-[115%] text-black">
           Who
@@ -25,7 +25,7 @@ const WhoWeAre = () => {
                 <h3 className="font-OpenSans font-semibold text-xl leading-8 text-black mt-6">
                   {value.title}
                 </h3>
-                <p className="font-OpenSans text-base md:text-sm lg:text-base text-black opacity-70">
+                <p className="font-OpenSans text-base md:text-sm lg:text-base leading-[120%] text-black opacity-70 mt-3">
                   {value.deception}
                 </p>
               </div>
