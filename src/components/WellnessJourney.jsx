@@ -9,7 +9,7 @@ const WellnessJourney = () => {
         title="Last Chance: Embrace Your Genetic Destiny"
         decoration="The clock is ticking on a once-in-a-lifetime chance to tailor your health to your DNA. Transform your fitness, nourish your mind, and elevate your well-being"
         btnTitle="Unlock My Wellness Journey"
-        imgSrc="/assets/images/home-page/wellness-journey/journey.png"
+        imgSrc="/assets/images/home-page/wellness-journey/journey.webp"
         shortDecoration="Time’s running out! Be among the trailblazers redefining health with Evexia. Start your personalized wellness revolution today"
       />
     </div>

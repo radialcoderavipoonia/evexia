@@ -108,7 +108,7 @@ const OurFeature = () => {
                 className="sm:ps-[69px] pt-2 md:w-[307px] xl:w-[376px] sm:w-[280px] w-[240px] lg:h-[498px] xl:h-[628px] h-[450px]"
                 width={307}
                 height={628}
-                src="/assets/images/home-page/our-features/iphone.png"
+                src="/assets/images/home-page/our-features/iphone.webp"
                 alt="iphone image"
               />
             </div>
@@ -118,21 +118,21 @@ const OurFeature = () => {
           className="absolute lg:bottom-[114px] bottom-[27px] right-0 xl:w-[660px] sm:w-[550px] w-[400px] sm:h-[600px] h-[500px] xl:h-[618px]"
           width={660}
           height={618}
-          src="/assets/images/home-page/our-features/iphone_bg.png"
+          src="/assets/images/home-page/our-features/iphone_bg.webp"
           alt="iphone bg image"
         />
         <Image
           className="absolute left-[6.5%] w-[79px] h-[169px] top-[95px] lg:block hidden rotate-[17.17deg]"
           width={79}
           height={169}
-          src="/assets/images/home-page/how-it-works/left_side_lines.png"
+          src="/assets/images/home-page/how-it-works/left_side_lines.webp"
           alt="left side lines image"
         />
         <Image
           className="absolute left-[50.5%] w-[41px] h-[89px] top-[595px] lg:block hidden rotate-[7.17deg]"
           width={41}
           height={89}
-          src="/assets/images/home-page/how-it-works/left_side_lines.png"
+          src="/assets/images/home-page/how-it-works/left_side_lines.webp"
           alt="left side lines image"
         />
         <span className="absolute left-[6%] top-[790px] lg:block hidden">

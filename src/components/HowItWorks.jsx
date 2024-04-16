@@ -22,7 +22,7 @@ const HowItWorks = () => {
                 className="h-[3100px]"
                 width={100}
                 height={1700}
-                src="/assets/images/home-page/how-it-works/roadmap_dots.png"
+                src="/assets/images/home-page/how-it-works/roadmap_dots.webp"
                 alt="witness image"
               />
             </div>
@@ -65,7 +65,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
-                    src="/assets/images/home-page/how-it-works/kickstart.png"
+                    src="/assets/images/home-page/how-it-works/kickstart.webp"
                     alt="kickstart image"
                   />
                 </div>
@@ -77,7 +77,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
-                    src="/assets/images/home-page/how-it-works/personalized_plan.png"
+                    src="/assets/images/home-page/how-it-works/personalized_plan.webp"
                     alt="personalized plan image"
                   />
                 </div>
@@ -151,7 +151,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
-                    src="/assets/images/home-page/how-it-works/live_your_best.png"
+                    src="/assets/images/home-page/how-it-works/live_your_best.webp"
                     alt="live your best life image"
                   />
                 </div>
@@ -163,7 +163,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
-                    src="/assets/images/home-page/how-it-works/find_your_tribe.png"
+                    src="/assets/images/home-page/how-it-works/find_your_tribe.webp"
                     alt="find your tribe image"
                   />
                 </div>
@@ -227,7 +227,7 @@ const HowItWorks = () => {
                     className="xl:h-[289px] lg:h-[320px] lg:w-[498px] w-full border-[1.15px] border-green rounded-2xl object-cover"
                     width={498}
                     height={289}
-                    src="/assets/images/home-page/how-it-works/witness.png"
+                    src="/assets/images/home-page/how-it-works/witness.webp"
                     alt="witness image"
                   />
                 </div>
@@ -239,7 +239,7 @@ const HowItWorks = () => {
               className="h-[1700px] "
               width={72}
               height={1700}
-              src="/assets/images/home-page/how-it-works/roadmap_dots.png"
+              src="/assets/images/home-page/how-it-works/roadmap_dots.webp"
               alt="witness image"
             />
           </div>
@@ -249,7 +249,7 @@ const HowItWorks = () => {
         className="absolute left-[7.5%] w-[86px] h-[185px] top-[555px] lg:block hidden "
         width={86}
         height={185}
-        src="/assets/images/home-page/how-it-works/left_side_lines.png"
+        src="/assets/images/home-page/how-it-works/left_side_lines.webp"
         alt="left side lines image"
       />
       <span className="absolute left-[4%] top-[670px] lg:block hidden">
