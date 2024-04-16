@@ -41,10 +41,13 @@ const CommonSection = (props) => {
                     placeholder="Enter Your Email address"
                     type="email"
                   />
-                  <button className="bg-white px-7 py-[14px] whitespace-nowrap font-OpenSans font-semibold text-base leading-[150%] text-blue rounded-md">
+                  <button className="bg-white px-7 py-[14px] sm:block hidden whitespace-nowrap font-OpenSans font-semibold text-base leading-[150%] text-blue rounded-md">
                     Secure Your Spot
                   </button>
                 </div>
+                <button className="bg-white w-full mt-3 sm:hidden block px-7 py-[14px] whitespace-nowrap font-OpenSans font-semibold text-base leading-[150%] text-blue rounded-md">
+                  Secure Your Spot
+                </button>
               </div>
             </div>
             <div>
