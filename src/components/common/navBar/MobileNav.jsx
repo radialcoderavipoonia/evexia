@@ -56,6 +56,7 @@ const MobileNav = ({ activeNavOverlay, setActiveNavOverlay }) => {
               return (
                 <div key={index} className="relative">
                   <Link
+                    onClick={() => setActiveNavOverlay(!activeNavOverlay)}
                     href={value.path}
                     className="font-OpenSans hover:text-green transition-all ease-in-out duration-200 font-normal text-base text-black"
                   >
