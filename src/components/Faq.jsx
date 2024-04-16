@@ -19,7 +19,7 @@ const Faq = () => {
   return (
     <>
       <div className="xl:max-w-[1140px] container px- xl:px-0 mx-auto pb-14 sm:pb-16 md:pb-20 relative lg:pb-[120px]">
-        <div className="absolute right-[-9%] top-[18%] hidden lg:block">
+        <div className="absolute right-[-11%] top-[17%] hidden lg:block">
           <Faqs />
         </div>
         <div className="flex justify-center flex-col items-center">
@@ -31,8 +31,8 @@ const Faq = () => {
             <span className="text-green">Asked Questions</span>
           </h2>
         </div>
-        <div className=" flex flex-wrap justify-between mt-5 md:mt-[36px]">
-          <div className=" sm:w-6/12 px-3">
+        <div className=" px-4 sm:px-0 flex flex-wrap gap-6 sm:flex-nowrap justify-between mt-5 md:mt-[36px]">
+          <div className=" sm:w-6/12">
             {faqList.map((obj, index) => (
               <div key={index}>
                 <div className=" mt-4 md:mt-6 text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
@@ -86,7 +86,7 @@ const Faq = () => {
               </div>
             ))}
           </div>
-          <div className=" sm:w-6/12 px-3">
+          <div className=" sm:w-6/12">
             {faqListto.map((obj, index) => (
               <div key={index}>
                 <div className=" mt-4 md:mt-6   text-black opacity-80 py-[7px] ps-3 pr-[18px] border border-lightBlack rounded-md">
