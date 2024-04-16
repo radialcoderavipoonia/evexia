@@ -18,31 +18,36 @@ export const benefits = [
     imageName: "dna_checking",
     icons: <Dna />,
     title: "Customized to Your DNA",
-    description:"Blueprint for thriving: say goodbye to guesswork. Evexia crafts your wellness plan with the precision of your own genetics. Unique, like you",
+    description:
+      "Blueprint for thriving: say goodbye to guesswork. Evexia crafts your wellness plan with the precision of your own genetics. Unique, like you",
   },
   {
     imageName: "dna_checking",
     icons: <Precision />,
     title: "Powered by precision",
-    description:"Optimized nutrition & fitness: every bite, every step, fine-tuned to your genes. Boos your energy and achieve your fitness goals, naturally aligned with your biology",
+    description:
+      "Optimized nutrition & fitness: every bite, every step, fine-tuned to your genes. Boos your energy and achieve your fitness goals, naturally aligned with your biology",
   },
   {
     imageName: "dna_checking",
     icons: <Wellness />,
     title: "Wellness inside out",
-    description:"Total mind-body sync: beyond the physical we tune into your mental well-being. Build resilience and positivity,  strategies that resonate with your genetic profile",
+    description:
+      "Total mind-body sync: beyond the physical we tune into your mental well-being. Build resilience and positivity,  strategies that resonate with your genetic profile",
   },
   {
     imageName: "dna_checking",
     icons: <Evolving />,
     title: "Evolving as you do",
-    description:"Smart, adaptive plan: your journey’s dynamic; so is Evexia. Our AI technology adapts your plan in real time, keeping you on the cutting edge of wellness",
+    description:
+      "Smart, adaptive plan: your journey’s dynamic; so is Evexia. Our AI technology adapts your plan in real time, keeping you on the cutting edge of wellness",
   },
   {
     imageName: "dna_checking",
     icons: <RealChange />,
     title: "Real results, real change",
-    description:"See the difference: physical fitness, mental clarity, emotional balance – experience the profound impact of living in harmony with your genetics",
+    description:
+      "See the difference: physical fitness, mental clarity, emotional balance – experience the profound impact of living in harmony with your genetics",
   },
 ];
 export const navLinks = [
@@ -56,15 +61,15 @@ export const navLinks = [
   },
   {
     title: "Benefits",
-    path: "/",
+    path: "#benefits",
   },
   {
     title: "Testimonials",
-    path: "/",
+    path: "#testimonial",
   },
   {
     title: "Who We Are",
-    path: "/",
+    path: "#aboutus",
   },
 ];
 export const aboutUs = [
