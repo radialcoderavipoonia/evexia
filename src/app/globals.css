@@ -51,10 +51,6 @@ fill: #5EBBA0;
 .svg_default svg rect {
 fill: #004A6D;
 }
-.border_features_tab{
-  border: 1px solid linear-gradient(89.66deg, #27AA7E 0.22%, #004A6D 108.11%) !important;
-}
 .circle_effect_bg{
   background: rgba(135, 209, 242, 1);
-
 }

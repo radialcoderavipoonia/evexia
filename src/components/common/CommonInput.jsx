@@ -5,7 +5,7 @@ const CommonInput = (props) => {
     <div>
       <form>
         <input
-          className="font-OpenSans text-sm font-semibold text-liver outline-none border-none py-4 ps-5 rounded-lg placeholder:text-[#4D4D4D]"
+          className="font-OpenSans text-sm font-semibold text-liver outline-none border-none py-4 ps-5 rounded-lg placeholder:text-liver"
           type={props.type}
           placeholder={props.placeholder}
         />

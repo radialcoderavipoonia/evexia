@@ -24,9 +24,9 @@ const WhoWeAre = () => {
               key={index}
               className="md:w-6/12 lg:w-5/12 xl:w-4/12 mt-6 px-3 xl:px-0"
             >
-              <div className=" bg-about-us border border-[#B9D2E1] xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] rounded-2xl p-6 hover:scale-95 duration-300 transition-all ease-in-out relative overflow-hidden">
-                <div className="h-[1px] bg-[#B3CBC5] end-0 absolute md:top-[12%] sm:top-[21%] top-[18%] md:w-[80%] w-[90%]"></div>
-                <div className="h-[10%] bg-[#B3CBC5] md:start-[15%] sm:start-[9%] start-[14%] absolute top-0 w-[1px]"></div>
+              <div className=" bg-about-us border border-paleaqua xl:max-w-[364px] md:min-h-[400px] lg:min-h-[466px] rounded-2xl p-6 hover:scale-95 duration-300 transition-all ease-in-out relative overflow-hidden">
+                <div className="h-[1px] bg-powderash end-0 absolute md:top-[12%] sm:top-[21%] top-[18%] md:w-[80%] w-[90%]"></div>
+                <div className="h-[10%] bg-powderash md:start-[15%] sm:start-[9%] start-[14%] absolute top-0 w-[1px]"></div>
                 <div className="relative z-10 bg-blue w-[64px] h-[64px] flex justify-center items-center border border-lightWhite rounded-[1000px] shadow-[0px_0px_20px_0px_rgba(255,_255,_255,_0.05)]">
                   {value.icon}
                 </div>

@@ -62,6 +62,8 @@ module.exports = {
         jetstream: "#B9D5D0",
         cyan: "#B7D6D5",
         blackcow: "#474B4A",
+        paleaqua: "#B9D2E1",
+        powderash: "#B3CBC5",
       },
     },
   },
