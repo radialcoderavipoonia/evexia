@@ -11,6 +11,7 @@ const RevealYourUltimate = () => {
         imgSrc="/assets/images/home-page/reveal-your/reveal_your.webp"
         shortDecoration="Step into the future of health personalized just for you. Why wait to live your best life?"
         bar="button"
+        customWidth="!max-w-[344px]"
       />
     </div>
   );

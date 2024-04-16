@@ -52,7 +52,7 @@ const CommonSection = (props) => {
             </div>
             <div>
               <Image
-                className=" w-full max-w-[309px] mx-auto lg:max-w-[309px]"
+                className={`w-full max-w-[309px] mx-auto lg:max-w-[309px] ${props.customWidth}`}
                 sizes="100vw"
                 width={309}
                 height={262}
